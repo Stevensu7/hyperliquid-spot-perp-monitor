@@ -158,12 +158,12 @@
       </div>
       <div class="hero-panel hero-side">
         <div class="side-block">
-          <div class="side-label">数据说明</div>
-          <div class="side-hint"><strong>BTC / ETH / SOL</strong> 有现货 — 通过 <code>UBTC/USDC</code>、<code>UETH/USDC</code>、<code>USOL/USDC</code> 包装代币在现货市场交易，永续合约对应 <code>hyna:BTC</code> 等。<br><br>META / TSLA / AMZN / GOOGL / HOOD / MU 等股票类 token 有现货，可做 <strong>Long Spot + Short Perp</strong> 中性套利。</div>
+          <div class="side-label">可套利品种</div>
+          <div class="side-hint"><strong>BTC / ETH / SOL</strong> 有现货 — 通过 <code>UBTC/USDC</code>、<code>UETH/USDC</code>、<code>USOL/USDC</code> 包装代币配对永续合约 <code>hyna:BTC</code> 等，可做 <strong>Long Spot + Short Perp</strong> 套利。<br><br><strong>META / TSLA / COIN / NVDA / AMZN / GOOGL</strong> 等为股票类包装 token（via Wagyu.xyz），Hyperliquid 上仅有合约，无正规现货，不适合做现货-合约套利。</div>
         </div>
         <div class="side-block">
           <div class="side-label">数据来源</div>
-          <div class="side-hint"><code>spotMeta</code> + <code>perpDexs</code> + <code>metaAndAssetCtxs</code>（每 DEX 一组）</div>
+          <div class="side-hint"><code>spotMeta.universe</code>（298 现货对）<br><code>perpDexs</code> + <code>metaAndAssetCtxs</code></div>
         </div>
       </div>
     </section>
@@ -278,8 +278,8 @@
 
       const metrics = [
         { label: '可套利配对 (有现货)', value: spotRows.length, hint: `含 ${uniqueSpot} 个现货 ticker` },
-        { label: '合约专属', value: perpRows.length, hint: `BTCD / 等无现货 token` },
-        { label: '最高 Funding 年化', value: fmt.pct(maxAnn), hint: 'Long Spot / Short Perp carry 上限' },
+        { label: '合约专属', value: perpRows.length, hint: `META/TSLA/COIN/NVDA 等股票 token` },
+        { label: '最高 Funding 年化', value: fmt.pct(maxAnn), hint: 'BTC/ETH/SOL 等主流币 carry 上限' },
         { label: '正 Funding 市场', value: positiveCarry, hint: `共 ${rows.length} 个市场` },
         { label: '24h 合计成交额', value: fmt.usd(totalVol), hint: '跨 DEX 合计' },
         { label: '合计 OI', value: fmt.num(totalOi), hint: `覆盖 ${uniqueSymbols} 个代币` },
