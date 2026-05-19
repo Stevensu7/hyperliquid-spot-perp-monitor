@@ -51,7 +51,40 @@ async function main() {
     post({ type: 'allMids' }),
   ]);
 
-  const spotNames = new Set(spotMeta.tokens.map(t => t.name));
+  // allMids: keys like "BTC", "ETH", "SOL", "META" etc — unified mid prices
+  const allMidNames = new Set(Object.keys(allMids));
+
+  // Build index->token map from spotMeta.tokens
+  const idxToToken = {};
+  spotMeta.tokens.forEach(t => { idxToToken[t.index] = t; });
+
+  // Build set of token names (not indices!) that HAVE A SPOT TRADING PAIR in universe
+  // These are the SPOT TOKEN names, e.g. "UBTC", "UETH", "TSLA", "META"
+  // We get them by looking at the base token name (index 0 in universe tokens array)
+  const spotTokenNames = new Set();
+  spotMeta.universe.forEach(entry => {
+    if (entry.tokens && entry.tokens.length >= 2) {
+      const baseIdx = entry.tokens[0];
+      const baseToken = idxToToken[baseIdx];
+      if (baseToken) spotTokenNames.add(baseToken.name);
+    }
+  });
+
+  // Build wrapped->canonical mapping for main crypto pairs
+  // e.g. { UBTC: "BTC", UETH: "ETH", USOL: "SOL" }
+  // These are the wrapped tokens that have corresponding perpetuals on Hyperliquid
+  const WRAPPED_MAP = {
+    UBTC: 'BTC',
+    UETH: 'ETH',
+    USOL: 'SOL',
+    // Add other known wrapped tokens as needed
+  };
+  // Reverse: canonical -> wrapped
+  const CANONICAL_TO_WRAPPED = {};
+  Object.entries(WRAPPED_MAP).forEach(([wrapped, canonical]) => {
+    CANONICAL_TO_WRAPPED[canonical] = wrapped;
+  });
+
   const activeDexes = perpDexs.filter(Boolean).map(d => d.name);
   const dexFullNames = {};
   perpDexs.filter(Boolean).forEach(d => { dexFullNames[d.name] = d.fullName || d.name; });
@@ -99,7 +132,14 @@ async function main() {
       const dayVolume = Number(ctx.dayNtlVlm || 0);
       const premiumPct = ctx.premium != null ? Number(ctx.premium) * 100 : null;
       const basisPct = (oraclePx && markPx) ? ((markPx / oraclePx) - 1) * 100 : null;
-      const hasSpot = spotNames.has(base);
+      // Determine hasSpot:
+      // 1. For canonical crypto names (BTC/ETH/SOL), check if wrapped version (UBTC/UETH/USOL) has a spot pair
+      // 2. For all other assets (META, TSLA, COIN, etc.), check if the base name itself has a spot pair
+      let hasSpot = spotTokenNames.has(base);
+      if (!hasSpot && CANONICAL_TO_WRAPPED[base]) {
+        // Canonical crypto: check wrapped token spot
+        hasSpot = spotTokenNames.has(CANONICAL_TO_WRAPPED[base]);
+      }
 
       rows.push({
         dex,
