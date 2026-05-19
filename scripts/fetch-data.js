@@ -85,6 +85,14 @@ async function main() {
     CANONICAL_TO_WRAPPED[canonical] = wrapped;
   });
 
+  // Stock/ETF tokens — these have spot trading pairs on Hyperliquid (via Wagyu.xyz)
+  // but they are NOT suitable for spot-perp arbitrage like BTC/ETH/SOL.
+  // We mark them as hasSpot=false so they appear as "perp-only" in the dashboard.
+  const STOCK_TOKENS = new Set([
+    'META', 'TSLA', 'NVDA', 'COIN', 'AAPL', 'AMZN', 'GOOGL', 'HOOD',
+    'MSFT', 'SPY', 'QQQ', 'AVGO', 'ORCL', 'MU',  // other stock-like tokens
+  ]);
+
   const activeDexes = perpDexs.filter(Boolean).map(d => d.name);
   const dexFullNames = {};
   perpDexs.filter(Boolean).forEach(d => { dexFullNames[d.name] = d.fullName || d.name; });
@@ -134,11 +142,16 @@ async function main() {
       const basisPct = (oraclePx && markPx) ? ((markPx / oraclePx) - 1) * 100 : null;
       // Determine hasSpot:
       // 1. For canonical crypto names (BTC/ETH/SOL), check if wrapped version (UBTC/UETH/USOL) has a spot pair
-      // 2. For all other assets (META, TSLA, COIN, etc.), check if the base name itself has a spot pair
+      // 2. For all other assets, check if the base name itself has a spot pair in the universe
+      // 3. Exclude stock/ETF tokens (STOCK_TOKENS) even if they have a spot pair — they are not suitable for spot-perp arb
       let hasSpot = spotTokenNames.has(base);
       if (!hasSpot && CANONICAL_TO_WRAPPED[base]) {
         // Canonical crypto: check wrapped token spot
         hasSpot = spotTokenNames.has(CANONICAL_TO_WRAPPED[base]);
+      }
+      // Stock tokens — mark as perp-only regardless of spot availability
+      if (hasSpot && STOCK_TOKENS.has(base)) {
+        hasSpot = false;
       }
 
       rows.push({
