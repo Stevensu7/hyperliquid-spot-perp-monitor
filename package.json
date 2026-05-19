@@ -1,0 +1,11 @@
+{
+  "name": "hyperliquid-spot-perp-monitor",
+  "version": "1.0.0",
+  "description": "Hyperliquid mainnet spot-perp funding & basis dashboard",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

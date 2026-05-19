@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hyperliquid 现货-合约套利监控看板</title>
+  <style>
+    :root {
+      --bg: #0c0f14;
+      --bg-soft: #10141c;
+      --panel: rgba(20, 24, 33, 0.86);
+      --panel-strong: rgba(26, 31, 43, 0.96);
+      --panel-soft: rgba(255, 255, 255, 0.03);
+      --text: #edf2f7;
+      --muted: #98a2b3;
+      --line: rgba(255,255,255,0.08);
+      --good: #45d49a;
+      --warn: #ffbe55;
+      --bad: #ff7d7d;
+      --accent: #87a8ff;
+      --shadow: 0 20px 50px -24px rgba(0,0,0,0.55);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100dvh; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 0% 0%, rgba(90, 113, 255, 0.16), transparent 32%),
+        radial-gradient(circle at 100% 0%, rgba(69, 212, 154, 0.10), transparent 28%),
+        linear-gradient(180deg, #0b0f15 0%, #0c1016 100%);
+    }
+    .shell { max-width: 1480px; margin: 0 auto; padding: 28px; }
+
+    /* ── Hero ─────────────────────────────────────────────────────────── */
+    .hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 20px; margin-bottom: 20px; }
+    .hero-panel, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      backdrop-filter: blur(18px);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), var(--shadow);
+    }
+    .hero-panel { padding: 28px; position: relative; overflow: hidden; min-height: 250px; }
+    .hero-panel::after {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(120deg, rgba(255,255,255,0.06), transparent 32%, transparent 70%, rgba(255,255,255,0.03));
+      pointer-events: none;
+    }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; }
+    .eyebrow .pulse, .status-dot {
+      width: 10px; height: 10px; border-radius: 999px; background: var(--good);
+      box-shadow: 0 0 0 0 rgba(69,212,154,0.45); animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(69,212,154,0.55); }
+      70% { box-shadow: 0 0 0 12px rgba(69,212,154,0); }
+      100% { box-shadow: 0 0 0 0 rgba(69,212,154,0); }
+    }
+    h1 { margin: 0; font-size: 44px; line-height: 0.98; letter-spacing: -0.05em; max-width: 14ch; }
+    .hero-copy { margin-top: 18px; color: var(--muted); line-height: 1.72; max-width: 72ch; font-size: 15px; }
+    .hero-copy strong { color: var(--text); font-weight: 600; }
+    .hero-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .tag, .chip {
+      border-radius: 999px; padding: 8px 12px; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08); color: var(--text); font-size: 13px;
+    }
+    .chip { cursor: pointer; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+    .chip:hover { transform: translateY(-1px); }
+    .chip.active { background: rgba(135,168,255,0.18); border-color: rgba(135,168,255,0.28); }
+    .chip.spot-only { background: rgba(69,212,154,0.10); border-color: rgba(69,212,154,0.22); }
+    .hero-side { padding: 22px; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; }
+    .side-block { background: var(--panel-soft); border: 1px solid rgba(255,255,255,0.06); border-radius: var(--radius-lg); padding: 16px; }
+    .side-label { font-size: 12px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
+    .side-value { font-size: 26px; letter-spacing: -0.04em; font-weight: 700; }
+    .side-hint { margin-top: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+    /* ── Layout ────────────────────────────────────────────────────────── */
+    .layout { display: grid; grid-template-columns: 0.95fr 1.65fr; gap: 20px; align-items: start; }
+    .card { padding: 22px; }
+    .section-title { margin: 0 0 16px; font-size: 18px; letter-spacing: -0.02em; }
+
+    /* ── Metrics ───────────────────────────────────────────────────────── */
+    .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .metric { background: var(--panel-soft); border: 1px solid rgba(255,255,255,0.06); border-radius: 20px; padding: 16px; min-height: 120px; }
+    .metric .label { font-size: 12px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+    .metric .value { font-size: 31px; font-weight: 700; letter-spacing: -0.04em; }
+    .metric .hint { margin-top: 10px; font-size: 13px; color: var(--muted); line-height: 1.55; }
+    .status-row { display: flex; align-items: center; gap: 10px; margin-top: 18px; color: var(--muted); font-size: 13px; }
+    .status-note { margin-top: 14px; color: var(--muted); font-size: 13px; line-height: 1.65; }
+
+    /* ── Controls ──────────────────────────────────────────────────────── */
+    .controls { display: grid; grid-template-columns: 1fr 200px 220px 140px; gap: 10px; margin-bottom: 16px; }
+    input, select, button {
+      width: 100%; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(9,12,18,0.72); color: var(--text);
+      padding: 12px 14px; font-size: 14px; outline: none;
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    input:focus, select:focus { border-color: rgba(135,168,255,0.45); background: rgba(14,18,26,0.96); }
+    button { cursor: pointer; background: linear-gradient(180deg, rgba(135,168,255,0.18), rgba(135,168,255,0.10)); border-color: rgba(135,168,255,0.22); font-weight: 600; }
+    button:hover { transform: translateY(-1px); }
+    button:active { transform: scale(0.98); }
+
+    /* ── Table ─────────────────────────────────────────────────────────── */
+    .table-shell { border: 1px solid rgba(255,255,255,0.07); border-radius: 22px; overflow: hidden; background: rgba(255,255,255,0.015); }
+    .table-wrap { overflow: auto; }
+    table { width: 100%; min-width: 1100px; border-collapse: collapse; }
+    th, td { padding: 14px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); text-align: left; vertical-align: middle; font-size: 14px; }
+    th { position: sticky; top: 0; background: rgba(15, 18, 26, 0.98); color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; z-index: 1; }
+    tr:hover td { background: rgba(255,255,255,0.025); }
+    .pair { font-weight: 700; letter-spacing: -0.02em; }
+    .pair-sub { margin-top: 6px; color: var(--muted); font-size: 12px; }
+    .mono { font-variant-numeric: tabular-nums; }
+    .pill { display: inline-flex; align-items: center; border-radius: 999px; padding: 7px 11px; font-size: 12px; font-weight: 700; border: 1px solid transparent; white-space: nowrap; }
+    .good { color: var(--good); background: rgba(69,212,154,0.12); border-color: rgba(69,212,154,0.20); }
+    .warn { color: var(--warn); background: rgba(255,190,85,0.12); border-color: rgba(255,190,85,0.20); }
+    .bad { color: var(--bad); background: rgba(125,125,125,0.12); border-color: rgba(125,125,125,0.20); }
+    .perp-only-badge { color: var(--muted); background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.10); }
+    .has-spot-badge { color: var(--good); background: rgba(69,212,154,0.12); border-color: rgba(69,212,154,0.22); }
+    .value-good { color: var(--good); }
+    .value-bad { color: var(--bad); }
+    .footer-note { margin-top: 16px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .error { color: var(--bad); }
+    .empty { padding: 32px 18px; text-align: center; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 1100px) { .hero, .layout { grid-template-columns: 1fr; } h1 { font-size: 38px; max-width: none; } }
+    @media (max-width: 860px) { .controls { grid-template-columns: 1fr; } }
+    @media (max-width: 780px) {
+      .shell { padding: 16px; }
+      .hero-panel, .card { border-radius: 22px; }
+      .hero-panel, .card, .hero-side { padding: 18px; }
+      .metric-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+
+    <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="eyebrow"><span class="pulse"></span>实时数据 · Hyperliquid 主网</div>
+        <h1>现货-合约<br>套利监控</h1>
+        <div class="hero-copy">
+          实时拉取 Hyperliquid 主网全部 8 个 HIP-3 perp DEX（xyz / flx / vntl / hyna / km / abcd / cash / para）数据。<strong>绿色标签 = 有现货可做套利对冲</strong>，灰色标签 = 合约专属（BTC/ETH/SOL 等）。按 funding 年化排序，帮助找到最佳 carry 机会。
+        </div>
+        <div class="hero-tags">
+          <span class="tag">Funding 年化 = 8h rate × 3 × 365</span>
+          <span class="tag">Basis = (Mark / Oracle - 1) × 100%</span>
+          <span class="tag">绿色 = 有现货可套利</span>
+        </div>
+      </div>
+      <div class="hero-panel hero-side">
+        <div class="side-block">
+          <div class="side-label">数据说明</div>
+          <div class="side-hint">BTC / ETH / SOL 在 Hyperliquid <strong>无现货</strong>，仅有永续合约，无法做现货-合约套利。<br><br>META / TSLA / NVDA / AMZN / GOOGL / COIN / HOOD / MU 等股票类 token 有现货，可做 <strong>Long Spot + Short Perp</strong> 中性套利。</div>
+        </div>
+        <div class="side-block">
+          <div class="side-label">数据来源</div>
+          <div class="side-hint"><code>spotMeta</code> + <code>perpDexs</code> + <code>metaAndAssetCtxs</code>（每 DEX 一组）</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Main Content ───────────────────────────────────────────────── -->
+    <section class="layout">
+      <!-- Left: Metrics + Filters -->
+      <div class="card">
+        <h2 class="section-title">实时概览</h2>
+        <div class="metric-grid" id="metrics"></div>
+        <div class="status-row"><span class="status-dot"></span><span id="generatedAt">加载中...</span></div>
+        <div class="status-note" id="statusNote">数据源：Hyperliquid 主网 API。页面每 60 秒自动刷新。</div>
+        <div class="dex-chips" id="dexChips" style="margin-top:16px"></div>
+        <div style="margin-top: 20px">
+          <h3 style="margin:0 0 12px;font-size:15px;color:var(--muted);letter-spacing:0.06em;text-transform:uppercase">DEX 筛选</h3>
+          <div id="dexChipFilter"></div>
+        </div>
+      </div>
+
+      <!-- Right: Table -->
+      <div class="card">
+        <h2 class="section-title">全部市场</h2>
+        <div class="controls">
+          <input id="search" placeholder="搜索 ticker，如 META / TSLA / COIN / BTC" />
+          <select id="modeFilter">
+            <option value="all">全部</option>
+            <option value="spot" selected>可套利 (有现货)</option>
+            <option value="perp">合约专属</option>
+          </select>
+          <select id="sort">
+            <option value="annualizedFundingPct">按 funding 年化</option>
+            <option value="dayVolume">按日成交额</option>
+            <option value="openInterest">按 OI</option>
+            <option value="basisPct">按 basis</option>
+          </select>
+          <button id="refreshBtn">立即刷新</button>
+        </div>
+        <div class="table-shell">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>代币</th>
+                  <th>类型</th>
+                  <th>DEX</th>
+                  <th>8h Funding</th>
+                  <th>Funding 年化</th>
+                  <th>Mark</th>
+                  <th>Oracle</th>
+                  <th>Basis</th>
+                  <th>24h 成交额</th>
+                  <th>OI</th>
+                  <th>最大杠杆</th>
+                </tr>
+              </thead>
+              <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="footer-note">
+          <strong>做多现货 + 做空合约（Long Spot / Short Perp）</strong>中性套利策略：赚取正 funding，同时对冲方向性风险。需关注 basis 稳定性 — basis 为负意味着 mark &lt; oracle，套利不利。
+        </div>
+        <div class="footer-note">
+          本页每 60 秒自动刷新主网数据，支持按 DEX / ticker 过滤排序。数据来自 Hyperliquid 8 个公开 HIP-3 perp DEX 的 metaAndAssetCtxs 接口。
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="./fetch.js"></script>
+  <script>
+    // ── Load pre-built data snapshot (generated by GitHub Actions) ──
+    window.__HL_DATA__ = null;
+    (function() {
+      var s = document.createElement('script');
+      s.src = './data.js';
+      s.onerror = function() { /* no snapshot, will fetch live */ };
+      document.head.appendChild(s);
+    })();
+
+    const fmt = {
+      pct: (v, d = 2) => v == null || Number.isNaN(v) ? '-' : `${Number(v).toFixed(d)}%`,
+      px: (v) => v == null || Number.isNaN(v) ? '-' : Number(v).toLocaleString(undefined, { maximumFractionDigits: 4 }),
+      usd: (v) => v == null || Number.isNaN(v) ? '-' : '$' + Number(v).toLocaleString(undefined, { maximumFractionDigits: 0 }),
+      num: (v) => v == null || Number.isNaN(v) ? '-' : Number(v).toLocaleString(undefined, { maximumFractionDigits: 0 }),
+    };
+
+    let state = { rows: [], dexes: [], spotMids: {} };
+
+    function fundingClass(annualized) {
+      if (Math.abs(annualized) >= 2) return 'good';
+      if (Math.abs(annualized) >= 0.5) return 'warn';
+      return 'bad';
+    }
+    function fundingLabel(ann) {
+      if (Math.abs(ann) >= 2) return '高';
+      if (Math.abs(ann) >= 0.5) return '中';
+      return '低';
+    }
+
+    function renderMetrics(rows) {
+      const spotRows = rows.filter(r => r.hasSpot);
+      const perpRows = rows.filter(r => !r.hasSpot);
+      const positiveCarry = rows.filter(r => (r.annualizedFundingPct || 0) > 0).length;
+      const maxAnn = rows.length ? Math.max(...rows.map(r => Math.abs(r.annualizedFundingPct || 0))) : 0;
+      const totalVol = rows.reduce((s, r) => s + (r.dayVolume || 0), 0);
+      const totalOi = rows.reduce((s, r) => s + (r.openInterest || 0), 0);
+      const uniqueSymbols = new Set(rows.map(r => r.symbol)).size;
+      const uniqueSpot = new Set(spotRows.map(r => r.symbol)).size;
+
+      const metrics = [
+        { label: '可套利配对 (有现货)', value: spotRows.length, hint: `含 ${uniqueSpot} 个现货 ticker` },
+        { label: '合约专属', value: perpRows.length, hint: `BTC / ETH / SOL 等` },
+        { label: '最高 Funding 年化', value: fmt.pct(maxAnn), hint: 'Long Spot / Short Perp carry 上限' },
+        { label: '正 Funding 市场', value: positiveCarry, hint: `共 ${rows.length} 个市场` },
+        { label: '24h 合计成交额', value: fmt.usd(totalVol), hint: '跨 DEX 合计' },
+        { label: '合计 OI', value: fmt.num(totalOi), hint: `覆盖 ${uniqueSymbols} 个代币` },
+      ];
+      document.getElementById('metrics').innerHTML = metrics.map(m => `
+        <div class="metric">
+          <div class="label">${m.label}</div>
+          <div class="value">${m.value}</div>
+          <div class="hint">${m.hint}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderDexChips() {
+      const dexes = state.dexes;
+      document.getElementById('dexChips').innerHTML =
+        '<span class="chip active" data-dex="all">全部</span>' +
+        dexes.map(d => `<span class="chip" data-dex="${d}">${d}</span>`).join('');
+
+      // DEX filter chips (top of table)
+      document.getElementById('dexChipFilter').innerHTML =
+        '<div style="display:flex;flex-wrap:wrap;gap:8px">' +
+        '<span class="chip chip-spot-only active" data-dex="all">全部</span>' +
+        dexes.map(d => `<span class="chip" data-dex="${d}">${d}</span>`).join('') +
+        '</div>';
+
+      // Click handlers
+      document.querySelectorAll('#dexChips .chip, #dexChipFilter .chip').forEach(el => {
+        el.addEventListener('click', () => {
+          const dex = el.dataset.dex;
+          document.querySelectorAll(`[data-dex]`).forEach(c => c.classList.remove('active'));
+          document.querySelectorAll(`[data-dex="${dex}"]`).forEach(c => c.classList.add('active'));
+          renderTable();
+        });
+      });
+    }
+
+    function getActiveDex() {
+      const active = document.querySelector('#dexChipFilter .chip.active, #dexChips .chip.active');
+      return active ? active.dataset.dex : 'all';
+    }
+
+    function renderTable() {
+      const q = document.getElementById('search').value.trim().toUpperCase();
+      const mode = document.getElementById('modeFilter').value;
+      const sortKey = document.getElementById('sort').value;
+      const dex = getActiveDex();
+
+      let rows = state.rows.filter(r => {
+        if (q && !r.symbol.includes(q) && !r.perpSymbol.includes(q)) return false;
+        if (mode === 'spot' && !r.hasSpot) return false;
+        if (mode === 'perp' && r.hasSpot) return false;
+        if (dex !== 'all' && r.dex !== dex) return false;
+        return true;
+      });
+
+      rows = rows.sort((a, b) => (b[sortKey] ?? -Infinity) - (a[sortKey] ?? -Infinity));
+
+      const html = rows.map(r => {
+        const ann = r.annualizedFundingPct || 0;
+        const basisClass = (r.basisPct || 0) >= 0 ? 'value-good' : 'value-bad';
+        const typeBadge = r.hasSpot
+          ? `<span class="pill has-spot-badge">有现货</span>`
+          : `<span class="pill perp-only-badge">合约专属</span>`;
+        return `
+          <tr>
+            <td>
+              <div class="pair">${r.symbol}</div>
+              <div class="pair-sub">${r.perpSymbol}</div>
+            </td>
+            <td>${typeBadge}</td>
+            <td><span class="pill warn">${r.dex}</span></td>
+            <td class="mono">${fmt.pct(r.fundingPer8hPct, 4)}</td>
+            <td><span class="pill ${fundingClass(ann)}">${fmt.pct(ann)} · ${fundingLabel(ann)}</span></td>
+            <td class="mono">${fmt.px(r.markPx)}</td>
+            <td class="mono">${fmt.px(r.oraclePx)}</td>
+            <td class="mono ${basisClass}">${fmt.pct(r.basisPct, 3)}</td>
+            <td class="mono">${fmt.usd(r.dayVolume)}</td>
+            <td class="mono">${fmt.num(r.openInterest)}</td>
+            <td class="mono">${r.maxLeverage}x</td>
+          </tr>
+        `;
+      }).join('');
+
+      document.getElementById('tbody').innerHTML = html ||
+        `<tr><td colspan="11" class="empty">无匹配结果，试试更短的搜索词或切换筛选条件。</td></tr>`;
+    }
+
+    async function refreshData(forceLive) {
+      const btn = document.getElementById('refreshBtn');
+      const genAt = document.getElementById('generatedAt');
+      const note = document.getElementById('statusNote');
+      btn.disabled = true;
+      btn.textContent = '刷新中...';
+      genAt.textContent = '正在拉取主网数据...';
+
+      // Use snapshot if available and not forcing live
+      if (!forceLive && window.__HL_DATA__) {
+        const data = window.__HL_DATA__;
+        state.rows = data.rows;
+        state.dexes = data.dexes;
+        state.spotMids = data.perpMids || {};
+        renderMetrics(state.rows);
+        renderDexChips();
+        renderTable();
+        genAt.textContent = `快照：${new Date(data.generatedAt).toLocaleString()}（每 15 分钟更新）`;
+        note.classList.remove('error');
+        note.textContent = `数据源：Hyperliquid 主网快照（GitHub Actions 每 15 分钟更新） · ${state.dexes.length} 个 HIP-3 DEX · ${state.rows.length} 条记录`;
+        btn.disabled = false;
+        btn.textContent = '立即刷新';
+        return;
+      }
+
+      try {
+        const data = await window.loadLiveRows();
+        state.rows = data.rows;
+        state.dexes = data.dexes;
+        state.spotMids = data.spotMids || {};
+        renderMetrics(state.rows);
+        renderDexChips();
+        renderTable();
+        genAt.textContent = `最后刷新：${new Date(data.generatedAt).toLocaleString()}`;
+        note.classList.remove('error');
+        note.textContent = `数据源：Hyperliquid 主网 · ${state.dexes.length} 个 HIP-3 DEX · ${state.rows.length} 条记录`;
+      } catch (err) {
+        console.error(err);
+        genAt.textContent = '刷新失败';
+        note.classList.add('error');
+        note.textContent = `加载失败：${err.message} — 快照可能已过期`;
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '立即刷新';
+      }
+    }
+
+    document.getElementById('search').addEventListener('input', renderTable);
+    document.getElementById('modeFilter').addEventListener('change', renderTable);
+    document.getElementById('sort').addEventListener('change', renderTable);
+    document.getElementById('refreshBtn').addEventListener('click', () => refreshData(true));
+
+    refreshData(false);
+    setInterval(() => refreshData(false), 60000);
+  </script>
+</body>
+</html>
