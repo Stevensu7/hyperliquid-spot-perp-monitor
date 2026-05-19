@@ -148,7 +148,7 @@
         <div class="eyebrow"><span class="pulse"></span>实时数据 · Hyperliquid 主网</div>
         <h1>现货-合约<br>套利监控</h1>
         <div class="hero-copy">
-          实时拉取 Hyperliquid 主网全部 8 个 HIP-3 perp DEX（xyz / flx / vntl / hyna / km / abcd / cash / para）数据。<strong>绿色标签 = 有现货可做套利对冲</strong>，灰色标签 = 合约专属（BTC/ETH/SOL 等）。按 funding 年化排序，帮助找到最佳 carry 机会。
+          实时拉取 Hyperliquid 主网全部 8 个 HIP-3 perp DEX（xyz / flx / vntl / hyna / km / abcd / cash / para）数据。<strong>BTC / ETH / SOL</strong> 通过 <code>UBTC/USDC</code>、<code>UETH/USDC</code>、<code>USOL/USDC</code> 包装代币有现货配对。<strong>绿色标签 = 有现货可做套利对冲</strong>，灰色标签 = 合约专属。按 funding 年化排序，帮助找到最佳 carry 机会。
         </div>
         <div class="hero-tags">
           <span class="tag">Funding 年化 = 8h rate × 3 × 365</span>
@@ -159,7 +159,7 @@
       <div class="hero-panel hero-side">
         <div class="side-block">
           <div class="side-label">数据说明</div>
-          <div class="side-hint">BTC / ETH / SOL 在 Hyperliquid <strong>无现货</strong>，仅有永续合约，无法做现货-合约套利。<br><br>META / TSLA / NVDA / AMZN / GOOGL / COIN / HOOD / MU 等股票类 token 有现货，可做 <strong>Long Spot + Short Perp</strong> 中性套利。</div>
+          <div class="side-hint"><strong>BTC / ETH / SOL</strong> 有现货 — 通过 <code>UBTC/USDC</code>、<code>UETH/USDC</code>、<code>USOL/USDC</code> 包装代币在现货市场交易，永续合约对应 <code>hyna:BTC</code> 等。<br><br>META / TSLA / AMZN / GOOGL / HOOD / MU 等股票类 token 有现货，可做 <strong>Long Spot + Short Perp</strong> 中性套利。</div>
         </div>
         <div class="side-block">
           <div class="side-label">数据来源</div>
@@ -207,6 +207,7 @@
               <thead>
                 <tr>
                   <th>代币</th>
+                  <th>现货对</th>
                   <th>类型</th>
                   <th>DEX</th>
                   <th>8h Funding</th>
@@ -277,7 +278,7 @@
 
       const metrics = [
         { label: '可套利配对 (有现货)', value: spotRows.length, hint: `含 ${uniqueSpot} 个现货 ticker` },
-        { label: '合约专属', value: perpRows.length, hint: `BTC / ETH / SOL 等` },
+        { label: '合约专属', value: perpRows.length, hint: `BTCD / 等无现货 token` },
         { label: '最高 Funding 年化', value: fmt.pct(maxAnn), hint: 'Long Spot / Short Perp carry 上限' },
         { label: '正 Funding 市场', value: positiveCarry, hint: `共 ${rows.length} 个市场` },
         { label: '24h 合计成交额', value: fmt.usd(totalVol), hint: '跨 DEX 合计' },
@@ -343,12 +344,20 @@
         const typeBadge = r.hasSpot
           ? `<span class="pill has-spot-badge">有现货</span>`
           : `<span class="pill perp-only-badge">合约专属</span>`;
+        // Spot pair display: UBTC/USDC for BTC, UETH/USDC for ETH, USOL/USDC for SOL, else SYMBOL/USDC
+        const WRAPPED_MAP = {BTC:'UBTC', ETH:'UETH', SOL:'USOL'};
+        const baseSymbol = r.symbol;
+        const spotPair = r.hasSpot
+          ? (WRAPPED_MAP[baseSymbol] || baseSymbol) + '/USDC'
+          : '-';
+        const spotPairClass = r.hasSpot ? 'value-good' : '';
         return `
           <tr>
             <td>
               <div class="pair">${r.symbol}</div>
               <div class="pair-sub">${r.perpSymbol}</div>
             </td>
+            <td class="mono ${spotPairClass}">${spotPair}</td>
             <td>${typeBadge}</td>
             <td><span class="pill warn">${r.dex}</span></td>
             <td class="mono">${fmt.pct(r.fundingPer8hPct, 4)}</td>
@@ -364,7 +373,7 @@
       }).join('');
 
       document.getElementById('tbody').innerHTML = html ||
-        `<tr><td colspan="11" class="empty">无匹配结果，试试更短的搜索词或切换筛选条件。</td></tr>`;
+        `<tr><td colspan="12" class="empty">无匹配结果，试试更短的搜索词或切换筛选条件。</td></tr>`;
     }
 
     async function refreshData(forceLive) {
