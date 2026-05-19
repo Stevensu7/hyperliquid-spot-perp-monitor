@@ -14,17 +14,25 @@
 
 const API_MAINNET = 'https://api.hyperliquid.xyz/info';
 
-// ─── Mainstream coins: track separately ───────────────────────────────────────
+// ─── Wrapped token mapping ─────────────────────────────────────────────────────
+const WRAPPED_MAP = { UBTC: 'BTC', UETH: 'ETH', USOL: 'SOL' };
+const CANONICAL_TO_WRAPPED = {};
+Object.entries(WRAPPED_MAP).forEach(([w, c]) => { CANONICAL_TO_WRAPPED[c] = w; });
+
+// ─── Stock/ETF tokens — have spot pairs on HL but not suitable for crypto arb ─
+const STOCK_TOKENS = new Set([
+  'META', 'TSLA', 'NVDA', 'COIN', 'AAPL', 'AMZN', 'GOOGL', 'HOOD',
+  'MSFT', 'SPY', 'QQQ', 'AVGO', 'ORCL', 'MU',
+]);
+
+// ─── Mainstream coins ─────────────────────────────────────────────────────────
 const MAINSTREAM_COINS = ['BTC', 'ETH', 'SOL', 'ARB', 'OP', 'APT', 'AVAX', 'LINK',
   'DOT', 'MATIC', 'ATOM', 'UNI', 'LDO', 'MKR', 'AAVE', 'SNX', 'NEAR', 'FIL',
   'TIA', 'SUI', 'INJ', 'FTM', 'ALGO', 'XLM', 'ETC', 'XMR', 'WIF', 'PEPE', 'DOGE',
   'SHIB', 'TRUMP', 'MELANIA', 'BONK', 'WLD', 'STRK', 'REZ', 'NOT', 'POPCAT',
-  'TURBO', 'MEW', 'GRIFFAIN', 'ONDO', 'TIA', 'JTO', 'PENDLE', 'WLD', 'ENA',
+  'TURBO', 'MEW', 'GRIFFAIN', 'ONDO', 'JTO', 'PENDLE', 'ENA',
   'WBTC', 'FBTC', 'LBTC', 'FDUSD', 'USDT', 'USDC'
 ];
-
-// Stock/ETF tokens that exist as spot on Hyperliquid (from spotMeta)
-const SPOT_TOKENS = new Set();
 
 // DEX list
 const DEXES = ['xyz', 'flx', 'vntl', 'hyna', 'km', 'abcd', 'cash', 'para'];
@@ -57,9 +65,20 @@ async function loadLiveRows() {
     fetchJson(API_MAINNET, { type: 'allMids' }),
   ]);
 
-  // Build spot token set
-  const spotNames = new Set(spotMeta.tokens.map(t => t.name));
-  const spotCoins = [...spotNames];
+  // Build index->token map from spotMeta.tokens
+  const idxToToken = {};
+  spotMeta.tokens.forEach(t => { idxToToken[t.index] = t; });
+
+  // Build set of token NAMES that have a spot trading pair in universe
+  // (correct approach: use universe, not tokens list)
+  const spotTokenNames = new Set();
+  spotMeta.universe.forEach(entry => {
+    if (entry.tokens && entry.tokens.length >= 2) {
+      const baseIdx = entry.tokens[0];
+      const baseToken = idxToToken[baseIdx];
+      if (baseToken) spotTokenNames.add(baseToken.name);
+    }
+  });
 
   // Active DEX list
   const activeDexes = perpDexs.filter(Boolean).map(d => d.name);
@@ -110,7 +129,18 @@ async function loadLiveRows() {
       const premiumPct = ctx.premium != null ? Number(ctx.premium) * 100 : null;
       const basisPct = (oraclePx && markPx) ? ((markPx / oraclePx) - 1) * 100 : null;
 
-      const hasSpot = spotNames.has(base);
+      // Determine hasSpot:
+      // 1. For canonical crypto (BTC/ETH/SOL), check wrapped token (UBTC/UETH/USOL) in universe
+      // 2. For everything else, check if base name itself has a spot pair in universe
+      // 3. Stock/ETF tokens → always false even if they have spot (not suitable for crypto arb)
+      let hasSpot = spotTokenNames.has(base);
+      if (!hasSpot && CANONICAL_TO_WRAPPED[base]) {
+        hasSpot = spotTokenNames.has(CANONICAL_TO_WRAPPED[base]);
+      }
+      if (hasSpot && STOCK_TOKENS.has(base)) {
+        hasSpot = false;
+      }
+
       const isMainstream = MAINSTREAM_COINS.includes(base);
 
       rows.push({
@@ -138,10 +168,10 @@ async function loadLiveRows() {
     }
   }
 
-  // Get spot mids for coins that have spot
+  // Get spot mids for coins that have spot (not stocks)
   const spotMidMap = {};
   for (const coin of Object.keys(perpMids)) {
-    if (spotNames.has(coin) && allMids[coin] != null) {
+    if (spotTokenNames.has(coin) && !STOCK_TOKENS.has(coin) && allMids[coin] != null) {
       spotMidMap[coin] = {
         coin,
         spotMid: Number(allMids[coin]),
@@ -162,7 +192,6 @@ async function loadLiveRows() {
     dexes: activeDexes,
     rows,
     spotMids: spotMidMap,
-    spotCoins,
   };
 }
 
