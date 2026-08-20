@@ -1,6 +1,6 @@
-// Generated 2026-08-20T06:43:42.706Z
+// Generated 2026-08-20T07:27:51.589Z
 window.__HL_DATA__ = {
-  "generatedAt": "2026-08-20T06:43:42.705Z",
+  "generatedAt": "2026-08-20T07:27:51.589Z",
   "dexes": [
     "xyz",
     "flx",
@@ -15,20 +15,20 @@ window.__HL_DATA__ = {
   ],
   "rows": [
     {
-      "dex": "hyna",
-      "dexLabel": "HyENA",
-      "symbol": "BASED",
-      "perpSymbol": "hyna:BASED",
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "CRCL",
+      "perpSymbol": "xyz:CRCL",
       "hasSpot": true,
-      "maxLeverage": 3,
-      "openInterest": 463808,
-      "dayVolume": 6860.353594,
-      "fundingPer8hPct": -0.00252078,
-      "annualizedFundingPct": -2.7602541,
-      "markPx": 0.078916,
-      "oraclePx": 0.078986,
-      "basisPct": -0.08862330033170274,
-      "premiumPct": -0.11964146
+      "maxLeverage": 10,
+      "openInterest": 579346.2659999998,
+      "dayVolume": 58435987.53251796,
+      "fundingPer8hPct": 0.00173179,
+      "annualizedFundingPct": 1.89631005,
+      "markPx": 81.306,
+      "oraclePx": 81.3,
+      "basisPct": 0.007380073800744569,
+      "premiumPct": -0.00738007
     },
     {
       "dex": "hyna",
@@ -37,14 +37,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "hyna:BTC",
       "hasSpot": true,
       "maxLeverage": 40,
-      "openInterest": 34.95994,
-      "dayVolume": 1144831.4503399995,
-      "fundingPer8hPct": 0.00143539,
-      "annualizedFundingPct": 1.5717520500000002,
-      "markPx": 69785,
-      "oraclePx": 69770,
-      "basisPct": 0.02149921169556368,
-      "premiumPct": 0.027948980000000002
+      "openInterest": 34.67428,
+      "dayVolume": 1177075.67099,
+      "fundingPer8hPct": 0.00125,
+      "annualizedFundingPct": 1.3687500000000001,
+      "markPx": 69694,
+      "oraclePx": 69682,
+      "basisPct": 0.017221090095009828,
+      "premiumPct": 0.01693407
     },
     {
       "dex": "hyna",
@@ -53,14 +53,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "hyna:ETH",
       "hasSpot": true,
       "maxLeverage": 25,
-      "openInterest": 797.0428,
-      "dayVolume": 1317824.49706,
+      "openInterest": 776.789,
+      "dayVolume": 1355372.91588,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 2262.5,
-      "oraclePx": 2262.8,
-      "basisPct": -0.013257910553310381,
-      "premiumPct": 0.00419834
+      "markPx": 2252.1,
+      "oraclePx": 2251.7,
+      "basisPct": 0.017764355820060196,
+      "premiumPct": 0.01954079
     },
     {
       "dex": "hyna",
@@ -73,10 +73,10 @@ window.__HL_DATA__ = {
       "dayVolume": 401847.01429,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 71.917,
-      "oraclePx": 71.918,
-      "basisPct": -0.0013904724825541948,
-      "premiumPct": 0.0011819
+      "markPx": 71.907,
+      "oraclePx": 71.927,
+      "basisPct": -0.02780596994176321,
+      "premiumPct": -0.06444034
     },
     {
       "dex": "hyna",
@@ -89,10 +89,10 @@ window.__HL_DATA__ = {
       "dayVolume": 225144.82375,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 85.74,
-      "oraclePx": 85.785,
-      "basisPct": -0.052456723203364586,
-      "premiumPct": 0.026170080000000002
+      "markPx": 85.861,
+      "oraclePx": 85.855,
+      "basisPct": 0.006988527167894887,
+      "premiumPct": 0.022654479999999998
     },
     {
       "dex": "hyna",
@@ -103,28 +103,28 @@ window.__HL_DATA__ = {
       "maxLeverage": 10,
       "openInterest": 52608766,
       "dayVolume": 23986.78754,
-      "fundingPer8hPct": 0.00125,
-      "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 0.003203,
-      "oraclePx": 0.003204,
-      "basisPct": -0.031210986267160568,
-      "premiumPct": -0.07802747
+      "fundingPer8hPct": -0.00041312000000000006,
+      "annualizedFundingPct": -0.4523664,
+      "markPx": 0.003196,
+      "oraclePx": 0.003196,
+      "basisPct": 0,
+      "premiumPct": 0
     },
     {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "CRCL",
-      "perpSymbol": "xyz:CRCL",
+      "dex": "hyna",
+      "dexLabel": "HyENA",
+      "symbol": "BASED",
+      "perpSymbol": "hyna:BASED",
       "hasSpot": true,
-      "maxLeverage": 10,
-      "openInterest": 576429.678,
-      "dayVolume": 57136989.30577703,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 82.276,
-      "oraclePx": 82.235,
-      "basisPct": 0.04985711679941218,
-      "premiumPct": 0.07174561
+      "maxLeverage": 3,
+      "openInterest": 463808,
+      "dayVolume": 6860.353594,
+      "fundingPer8hPct": 0.00019848999999999998,
+      "annualizedFundingPct": 0.21734654999999997,
+      "markPx": 0.079603,
+      "oraclePx": 0.079638,
+      "basisPct": -0.04394886863056113,
+      "premiumPct": -0.06466762
     },
     {
       "dex": "xyz",
@@ -133,14 +133,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:SPCX",
       "hasSpot": true,
       "maxLeverage": 20,
-      "openInterest": 1394908.62,
-      "dayVolume": 203635861.89760014,
-      "fundingPer8hPct": 0.0006245700000000001,
-      "annualizedFundingPct": 0.68390415,
-      "markPx": 139.87,
-      "oraclePx": 139.87,
-      "basisPct": 0,
-      "premiumPct": 0.01072424
+      "openInterest": 1393292.6999999997,
+      "dayVolume": 201660369.61080018,
+      "fundingPer8hPct": 0.00006862,
+      "annualizedFundingPct": 0.0751389,
+      "markPx": 139.49,
+      "oraclePx": 139.52,
+      "basisPct": -0.021502293577979614,
+      "premiumPct": -0.03515625
     },
     {
       "dex": "flx",
@@ -245,30 +245,30 @@ window.__HL_DATA__ = {
       "perpSymbol": "para:UNITREE",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 32341.48,
-      "dayVolume": 6617016.481159993,
-      "fundingPer8hPct": -0.20447966,
-      "annualizedFundingPct": -223.90522769999998,
-      "markPx": 101.5857,
-      "oraclePx": 103.7294,
-      "basisPct": -2.066627205016125,
-      "premiumPct": -2.39734347
+      "openInterest": 32328.38,
+      "dayVolume": 6102180.302459997,
+      "fundingPer8hPct": -0.08646971,
+      "annualizedFundingPct": -94.68433245000001,
+      "markPx": 100.67,
+      "oraclePx": 101.7479,
+      "basisPct": -1.0593830437778062,
+      "premiumPct": -1.04473901
     },
     {
       "dex": "xyz",
       "dexLabel": "XYZ",
-      "symbol": "UNITREE",
-      "perpSymbol": "xyz:UNITREE",
+      "symbol": "BOT",
+      "perpSymbol": "xyz:BOT",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 311043.1199999999,
-      "dayVolume": 97517631.60574065,
-      "fundingPer8hPct": -0.1655821,
-      "annualizedFundingPct": -181.3123995,
-      "markPx": 101.9,
-      "oraclePx": 103.8,
-      "basisPct": -1.8304431599229232,
-      "premiumPct": -2.0301059699999997
+      "openInterest": 145215.04,
+      "dayVolume": 2810558.6639900003,
+      "fundingPer8hPct": -0.06091194,
+      "annualizedFundingPct": -66.6985743,
+      "markPx": 28.525,
+      "oraclePx": 28.675,
+      "basisPct": -0.5231037489102031,
+      "premiumPct": -0.7762859599999999
     },
     {
       "dex": "xyz",
@@ -277,14 +277,46 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:CXMT",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 7588119.799999995,
-      "dayVolume": 21765312.745989975,
-      "fundingPer8hPct": -0.04839499,
-      "annualizedFundingPct": -52.992514050000004,
-      "markPx": 8.3928,
-      "oraclePx": 8.4884,
-      "basisPct": -1.126242872626182,
-      "premiumPct": -1.1988125
+      "openInterest": 7580368.199999998,
+      "dayVolume": 21004239.683509976,
+      "fundingPer8hPct": -0.050234970000000004,
+      "annualizedFundingPct": -55.00729215000001,
+      "markPx": 8.4155,
+      "oraclePx": 8.4515,
+      "basisPct": -0.42595988877713875,
+      "premiumPct": -0.40134886999999997
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "UNITREE",
+      "perpSymbol": "xyz:UNITREE",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 304000.5200000003,
+      "dayVolume": 89748040.41973987,
+      "fundingPer8hPct": -0.04543023,
+      "annualizedFundingPct": -49.746101849999995,
+      "markPx": 101.02,
+      "oraclePx": 101.39,
+      "basisPct": -0.36492750764375304,
+      "premiumPct": -0.39693263999999995
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "GIGADEV",
+      "perpSymbol": "xyz:GIGADEV",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 15204.14,
+      "dayVolume": 1019947.4720500001,
+      "fundingPer8hPct": 0.035075630000000003,
+      "annualizedFundingPct": 38.40781485000001,
+      "markPx": 60.047,
+      "oraclePx": 59.985,
+      "basisPct": 0.10335917312660481,
+      "premiumPct": 0.16470784000000002
     },
     {
       "dex": "xyz",
@@ -293,14 +325,110 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:HYUNDAI",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 4546.014,
-      "dayVolume": 2918866.1132699987,
-      "fundingPer8hPct": -0.02096736,
-      "annualizedFundingPct": -22.959259199999998,
-      "markPx": 298.58,
-      "oraclePx": 299.77,
-      "basisPct": -0.3969710111085156,
-      "premiumPct": -0.45468191999999996
+      "openInterest": 4552.816,
+      "dayVolume": 2521773.660449999,
+      "fundingPer8hPct": -0.02696018,
+      "annualizedFundingPct": -29.5213971,
+      "markPx": 298.56,
+      "oraclePx": 299.09,
+      "basisPct": -0.17720418603095478,
+      "premiumPct": -0.25895215
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SMSN",
+      "perpSymbol": "xyz:SMSN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 327514.9780000001,
+      "dayVolume": 143465381.94868,
+      "fundingPer8hPct": -0.02340338,
+      "annualizedFundingPct": -25.6267011,
+      "markPx": 194.02,
+      "oraclePx": 194.61,
+      "basisPct": -0.3031704434510063,
+      "premiumPct": -0.29494887
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "NCLD",
+      "perpSymbol": "xyz:NCLD",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 5102.36,
+      "dayVolume": 345342.76492,
+      "fundingPer8hPct": 0.02324913,
+      "annualizedFundingPct": 25.45779735,
+      "markPx": 24.174,
+      "oraclePx": 24.115,
+      "basisPct": 0.24466099937798802,
+      "premiumPct": 0.27970143000000003
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "RDDT",
+      "perpSymbol": "para:RDDT",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 1143.16,
+      "dayVolume": 75257.5435,
+      "fundingPer8hPct": 0.0214675,
+      "annualizedFundingPct": 23.5069125,
+      "markPx": 152.7952,
+      "oraclePx": 152.267,
+      "basisPct": 0.3468906591710619,
+      "premiumPct": 0.24466890000000002
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "SMCI",
+      "perpSymbol": "para:SMCI",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 378.44,
+      "dayVolume": 5669.19606,
+      "fundingPer8hPct": 0.021226019999999998,
+      "annualizedFundingPct": 23.242491899999997,
+      "markPx": 37.0565,
+      "oraclePx": 37.005,
+      "basisPct": 0.13917038238075996,
+      "premiumPct": 0.17430077
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "AVGO",
+      "perpSymbol": "para:AVGO",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 3410.8,
+      "dayVolume": 601874.8962999999,
+      "fundingPer8hPct": 0.02010855,
+      "annualizedFundingPct": 22.018862249999998,
+      "markPx": 368.12,
+      "oraclePx": 367.71,
+      "basisPct": 0.11150091104403792,
+      "premiumPct": 0.32936281
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "BB",
+      "perpSymbol": "xyz:BB",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 1306950.0000000007,
+      "dayVolume": 5052996.879830001,
+      "fundingPer8hPct": -0.01728861,
+      "annualizedFundingPct": -18.93102795,
+      "markPx": 8.4186,
+      "oraclePx": 8.4487,
+      "basisPct": -0.3562678281865961,
+      "premiumPct": -0.51836377
     },
     {
       "dex": "para",
@@ -311,156 +439,12 @@ window.__HL_DATA__ = {
       "maxLeverage": 10,
       "openInterest": 262.42,
       "dayVolume": 95656.6565,
-      "fundingPer8hPct": 0.01868858,
-      "annualizedFundingPct": 20.4639951,
-      "markPx": 202.869,
-      "oraclePx": 202.49,
-      "basisPct": 0.18716973677712634,
-      "premiumPct": 0.23418440000000001
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "RDDT",
-      "perpSymbol": "para:RDDT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 1115.02,
-      "dayVolume": 74415.9166,
-      "fundingPer8hPct": 0.01629964,
-      "annualizedFundingPct": 17.8481058,
-      "markPx": 152.8394,
-      "oraclePx": 152.267,
-      "basisPct": 0.37591861664052484,
-      "premiumPct": 0.26414128
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "SMCI",
-      "perpSymbol": "para:SMCI",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 378.44,
-      "dayVolume": 6411.81289,
-      "fundingPer8hPct": 0.01618511,
-      "annualizedFundingPct": 17.72269545,
-      "markPx": 37.15,
-      "oraclePx": 37.15,
-      "basisPct": 0,
-      "premiumPct": 0.20188425000000002
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BIRD",
-      "perpSymbol": "xyz:BIRD",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 41133,
-      "dayVolume": 112271.74582,
-      "fundingPer8hPct": 0.01550924,
-      "annualizedFundingPct": 16.9826178,
-      "markPx": 2.474,
-      "oraclePx": 2.4692,
-      "basisPct": 0.19439494573143534,
-      "premiumPct": 0.15936336
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "AVGO",
-      "perpSymbol": "para:AVGO",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 3410.8,
-      "dayVolume": 605473.4552999998,
-      "fundingPer8hPct": 0.01481194,
-      "annualizedFundingPct": 16.2190743,
-      "markPx": 368.8,
-      "oraclePx": 368.68,
-      "basisPct": 0.0325485515894508,
-      "premiumPct": 0.27409949
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "NCLD",
-      "perpSymbol": "xyz:NCLD",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 5199.82,
-      "dayVolume": 346193.68822,
-      "fundingPer8hPct": 0.01470621,
-      "annualizedFundingPct": 16.10329995,
-      "markPx": 24.198,
-      "oraclePx": 24.145,
-      "basisPct": 0.21950714433629503,
-      "premiumPct": 0.8852764500000001
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "IREN",
-      "perpSymbol": "para:IREN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 16058.74,
-      "dayVolume": 546496.96054,
-      "fundingPer8hPct": 0.013541639999999999,
-      "annualizedFundingPct": 14.8280958,
-      "markPx": 43.879,
-      "oraclePx": 43.815,
-      "basisPct": 0.14606869793449828,
-      "premiumPct": 0.18909049
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "STX",
-      "perpSymbol": "para:STX",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 273.13,
-      "dayVolume": 58603.45395,
-      "fundingPer8hPct": 0.0129716,
-      "annualizedFundingPct": 14.203902,
-      "markPx": 852.64,
-      "oraclePx": 852.64,
-      "basisPct": 0,
-      "premiumPct": 0.28382436
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "GLW",
-      "perpSymbol": "para:GLW",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 2571.2,
-      "dayVolume": 51935.9617,
-      "fundingPer8hPct": 0.01290954,
-      "annualizedFundingPct": 14.135946299999999,
-      "markPx": 155.32,
-      "oraclePx": 155.32,
-      "basisPct": 0,
-      "premiumPct": 0.19047772
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SHAZ",
-      "perpSymbol": "xyz:SHAZ",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 81022.02,
-      "dayVolume": 4050347.69147,
-      "fundingPer8hPct": 0.012688050000000001,
-      "annualizedFundingPct": 13.893414750000002,
-      "markPx": 66.239,
-      "oraclePx": 66.06,
-      "basisPct": 0.27096578867695786,
-      "premiumPct": 0.21715107
+      "fundingPer8hPct": 0.017283009999999998,
+      "annualizedFundingPct": 18.92489595,
+      "markPx": 201.653,
+      "oraclePx": 201.51,
+      "basisPct": 0.0709642201379479,
+      "premiumPct": 0.15664234999999999
     },
     {
       "dex": "para",
@@ -469,398 +453,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "para:COHR",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 3553.82,
-      "dayVolume": 877196.1120000003,
-      "fundingPer8hPct": 0.0121502,
-      "annualizedFundingPct": 13.304469,
-      "markPx": 294.3831,
-      "oraclePx": 293.82,
-      "basisPct": 0.1916479477231059,
-      "premiumPct": 0.28524267000000003
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "PALLADIUM",
-      "perpSymbol": "xyz:PALLADIUM",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 2929.1964,
-      "dayVolume": 1591759.627490001,
-      "fundingPer8hPct": 0.012002,
-      "annualizedFundingPct": 13.142190000000001,
-      "markPx": 1332.3,
-      "oraclePx": 1329.5,
-      "basisPct": 0.21060549078599777,
-      "premiumPct": 0.21737495
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SKHX",
-      "perpSymbol": "xyz:SKHX",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 374942.3619999998,
-      "dayVolume": 1005085822.549198,
-      "fundingPer8hPct": -0.01171729,
-      "annualizedFundingPct": -12.830432550000001,
-      "markPx": 1216,
-      "oraclePx": 1217,
-      "basisPct": -0.08216926869351049,
-      "premiumPct": -0.07559573
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "KR200",
-      "perpSymbol": "xyz:KR200",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 933.1058,
-      "dayVolume": 1839279.449270001,
-      "fundingPer8hPct": -0.011390029999999999,
-      "annualizedFundingPct": -12.47208285,
-      "markPx": 1077.2,
-      "oraclePx": 1077.9,
-      "basisPct": -0.06494108915484631,
-      "premiumPct": 0.08256796000000001
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "CIEN",
-      "perpSymbol": "para:CIEN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 57.42,
-      "dayVolume": 19736.146,
-      "fundingPer8hPct": 0.010591670000000001,
-      "annualizedFundingPct": 11.597878650000002,
-      "markPx": 405.3,
-      "oraclePx": 405.3,
-      "basisPct": 0,
-      "premiumPct": 0.04934616000000001
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SMSN",
-      "perpSymbol": "xyz:SMSN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 329986.514,
-      "dayVolume": 153782924.2254099,
-      "fundingPer8hPct": -0.009656320000000001,
-      "annualizedFundingPct": -10.573670400000001,
-      "markPx": 194.94,
-      "oraclePx": 194.94,
-      "basisPct": 0,
-      "premiumPct": 0.05181081
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "TER",
-      "perpSymbol": "para:TER",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 299.2,
-      "dayVolume": 165975.6601,
-      "fundingPer8hPct": 0.00948262,
-      "annualizedFundingPct": 10.383468899999999,
-      "markPx": 389.72,
-      "oraclePx": 389.72,
-      "basisPct": 0,
-      "premiumPct": 0.1488248
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "EBAY",
-      "perpSymbol": "xyz:EBAY",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 2857.2,
-      "dayVolume": 70678.9899,
-      "fundingPer8hPct": 0.00829064,
-      "annualizedFundingPct": 9.0782508,
-      "markPx": 102.81,
-      "oraclePx": 102.61,
-      "basisPct": 0.1949127765324965,
-      "premiumPct": 0.20295293
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "CRWD",
-      "perpSymbol": "xyz:CRWD",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 8815.66,
-      "dayVolume": 1938320.869100001,
-      "fundingPer8hPct": 0.008236990000000001,
-      "annualizedFundingPct": 9.019504050000002,
-      "markPx": 202.84,
-      "oraclePx": 202.5,
-      "basisPct": 0.16790123456791317,
-      "premiumPct": 0.29975309
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BB",
-      "perpSymbol": "xyz:BB",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 1303121.4000000001,
-      "dayVolume": 5014218.933649992,
-      "fundingPer8hPct": -0.00790051,
-      "annualizedFundingPct": -8.65105845,
-      "markPx": 8.4709,
-      "oraclePx": 8.4735,
-      "basisPct": -0.03068389685488837,
-      "premiumPct": -0.11093409
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "AAOI",
-      "perpSymbol": "para:AAOI",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 3994.88,
-      "dayVolume": 310967.2799000003,
-      "fundingPer8hPct": 0.00775106,
-      "annualizedFundingPct": 8.4874107,
-      "markPx": 126.72,
-      "oraclePx": 126.72,
-      "basisPct": 0,
-      "premiumPct": 0.21882891
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "USAR",
-      "perpSymbol": "xyz:USAR",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 98878.88,
-      "dayVolume": 806044.8887800002,
-      "fundingPer8hPct": 0.0071004,
-      "annualizedFundingPct": 7.774938,
-      "markPx": 18.333,
-      "oraclePx": 18.305,
-      "basisPct": 0.1529636711280924,
-      "premiumPct": 0.18355641
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "KIOXIA",
-      "perpSymbol": "xyz:KIOXIA",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 25875.342,
-      "dayVolume": 9280721.221149996,
-      "fundingPer8hPct": -0.00679591,
-      "annualizedFundingPct": -7.44152145,
-      "markPx": 334.99,
-      "oraclePx": 335.06,
-      "basisPct": -0.020891780576615115,
-      "premiumPct": -0.09490837
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "RDDT",
-      "perpSymbol": "xyz:RDDT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 368.28,
-      "dayVolume": 107710.1593,
-      "fundingPer8hPct": 0.00627973,
-      "annualizedFundingPct": 6.87630435,
-      "markPx": 153.31,
-      "oraclePx": 153.17,
-      "basisPct": 0.0914017105177356,
-      "premiumPct": 0.019651369999999998
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "AAOI",
-      "perpSymbol": "xyz:AAOI",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 6693.04,
-      "dayVolume": 1768799.9249,
-      "fundingPer8hPct": 0.00621949,
-      "annualizedFundingPct": 6.810341550000001,
-      "markPx": 126.85,
-      "oraclePx": 126.78,
-      "basisPct": 0.05521375611294843,
-      "premiumPct": 0.10916548
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "IREN",
-      "perpSymbol": "xyz:IREN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 8725.2,
-      "dayVolume": 788048.1958999997,
-      "fundingPer8hPct": 0.00610263,
-      "annualizedFundingPct": 6.68237985,
-      "markPx": 43.86,
-      "oraclePx": 43.82,
-      "basisPct": 0.09128251939753973,
-      "premiumPct": 0.09597216
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "DELL",
-      "perpSymbol": "xyz:DELL",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 9922.6,
-      "dayVolume": 5585818.671900002,
-      "fundingPer8hPct": 0.00609057,
-      "annualizedFundingPct": 6.66917415,
-      "markPx": 444.4,
-      "oraclePx": 443.91,
-      "basisPct": 0.1103827352391118,
-      "premiumPct": 0.09607803000000001
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BOT",
-      "perpSymbol": "xyz:BOT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 145836.28,
-      "dayVolume": 2826610.4546600003,
-      "fundingPer8hPct": -0.00574191,
-      "annualizedFundingPct": -6.28739145,
-      "markPx": 28.952,
-      "oraclePx": 28.953,
-      "basisPct": -0.003453873519143613,
-      "premiumPct": -0.20032466
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "CRDO",
-      "perpSymbol": "para:CRDO",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 364.56,
-      "dayVolume": 803320.7144999999,
-      "fundingPer8hPct": 0.00561084,
-      "annualizedFundingPct": 6.1438698,
-      "markPx": 240.401,
-      "oraclePx": 239.9,
-      "basisPct": 0.2088370154230912,
-      "premiumPct": 0.26934138999999996
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "DKNG",
-      "perpSymbol": "xyz:DKNG",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 12536.88,
-      "dayVolume": 32659.86666,
-      "fundingPer8hPct": -0.00544368,
-      "annualizedFundingPct": -5.9608296,
-      "markPx": 25.284,
-      "oraclePx": 25.304,
-      "basisPct": -0.07903888713246543,
-      "premiumPct": -0.04445937
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "LRCX",
-      "perpSymbol": "para:LRCX",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 707.62,
-      "dayVolume": 132424.8803,
-      "fundingPer8hPct": 0.00542644,
-      "annualizedFundingPct": 5.9419518,
-      "markPx": 313.99,
-      "oraclePx": 313.845,
-      "basisPct": 0.04620115024931426,
-      "premiumPct": 0.18066243
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "GEV",
-      "perpSymbol": "xyz:GEV",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 208.378,
-      "dayVolume": 325782.02065,
-      "fundingPer8hPct": 0.00513093,
-      "annualizedFundingPct": 5.61836835,
-      "markPx": 998.87,
-      "oraclePx": 996.77,
-      "basisPct": 0.21068049800856414,
-      "premiumPct": 0.18218847
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BX",
-      "perpSymbol": "xyz:BX",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 3691.4,
-      "dayVolume": 198804.5481,
-      "fundingPer8hPct": 0.00484661,
-      "annualizedFundingPct": 5.30703795,
-      "markPx": 145.89,
-      "oraclePx": 145.69,
-      "basisPct": 0.13727778159104975,
-      "premiumPct": 0.13367424
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "LITE",
-      "perpSymbol": "xyz:LITE",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 17347.65,
-      "dayVolume": 13704794.61139001,
-      "fundingPer8hPct": 0.00478826,
-      "annualizedFundingPct": 5.2431447,
-      "markPx": 848.8,
-      "oraclePx": 848.37,
-      "basisPct": 0.05068543206383502,
-      "premiumPct": 0.06406403000000001
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "NBIS",
-      "perpSymbol": "xyz:NBIS",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 247309.1200000001,
-      "dayVolume": 104220005.99040003,
-      "fundingPer8hPct": 0.0046409699999999995,
-      "annualizedFundingPct": 5.08186215,
-      "markPx": 228.68,
-      "oraclePx": 228.43,
-      "basisPct": 0.10944271768156266,
-      "premiumPct": 0.12529002
+      "openInterest": 3248.02,
+      "dayVolume": 946655.5747000002,
+      "fundingPer8hPct": 0.01622162,
+      "annualizedFundingPct": 17.7626739,
+      "markPx": 292.8026,
+      "oraclePx": 292.5,
+      "basisPct": 0.10345299145297915,
+      "premiumPct": 0.27329915
     },
     {
       "dex": "xyz",
@@ -871,28 +471,44 @@ window.__HL_DATA__ = {
       "maxLeverage": 10,
       "openInterest": 21.16,
       "dayVolume": 26247.6339,
-      "fundingPer8hPct": 0.004559059999999999,
-      "annualizedFundingPct": 4.9921707,
-      "markPx": 293.43,
-      "oraclePx": 293.43,
-      "basisPct": 0,
-      "premiumPct": 0.11650138
+      "fundingPer8hPct": 0.01579613,
+      "annualizedFundingPct": 17.29676235,
+      "markPx": 292.88,
+      "oraclePx": 292.53,
+      "basisPct": 0.11964584828907388,
+      "premiumPct": 0.24758143999999999
     },
     {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "LLY",
-      "perpSymbol": "xyz:LLY",
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "GLW",
+      "perpSymbol": "para:GLW",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 7294.7398,
-      "dayVolume": 6853184.62499,
-      "fundingPer8hPct": 0.00441433,
-      "annualizedFundingPct": 4.8336913500000005,
-      "markPx": 1281.7,
-      "oraclePx": 1280.4,
-      "basisPct": 0.10153077163386204,
-      "premiumPct": 0.09450172
+      "openInterest": 2571.2,
+      "dayVolume": 51126.5777,
+      "fundingPer8hPct": 0.01458817,
+      "annualizedFundingPct": 15.97404615,
+      "markPx": 154.3822,
+      "oraclePx": 154.33,
+      "basisPct": 0.033823624700324295,
+      "premiumPct": 0.11038034999999999
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "IREN",
+      "perpSymbol": "para:IREN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 16072.1,
+      "dayVolume": 540012.5246400003,
+      "fundingPer8hPct": 0.01411534,
+      "annualizedFundingPct": 15.456297300000003,
+      "markPx": 43.6921,
+      "oraclePx": 43.58,
+      "basisPct": 0.2572280862781273,
+      "premiumPct": 0.24632859
     },
     {
       "dex": "xyz",
@@ -901,46 +517,302 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:MAGS",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 1343.54,
-      "dayVolume": 406770.1983699999,
-      "fundingPer8hPct": 0.00423603,
-      "annualizedFundingPct": 4.638452849999999,
-      "markPx": 67.82,
-      "oraclePx": 67.82,
-      "basisPct": 0,
-      "premiumPct": -0.30566205
+      "openInterest": 1252.42,
+      "dayVolume": 410514.0831099999,
+      "fundingPer8hPct": 0.01345183,
+      "annualizedFundingPct": 14.72975385,
+      "markPx": 67.843,
+      "oraclePx": 67.745,
+      "basisPct": 0.14466012251825866,
+      "premiumPct": 0.25485276
     },
     {
       "dex": "xyz",
       "dexLabel": "XYZ",
-      "symbol": "AVGO",
-      "perpSymbol": "xyz:AVGO",
+      "symbol": "SKHX",
+      "perpSymbol": "xyz:SKHX",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 14755.56,
-      "dayVolume": 4316227.713100001,
-      "fundingPer8hPct": 0.00416797,
-      "annualizedFundingPct": 4.5639271500000005,
-      "markPx": 368.98,
-      "oraclePx": 368.68,
-      "basisPct": 0.08137137897363811,
-      "premiumPct": 0.09083758
+      "openInterest": 371179.6919999989,
+      "dayVolume": 845652014.577598,
+      "fundingPer8hPct": -0.013093029999999999,
+      "annualizedFundingPct": -14.336867849999999,
+      "markPx": 1209.9,
+      "oraclePx": 1212.5,
+      "basisPct": -0.214432989690716,
+      "premiumPct": -0.25154639
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "CIEN",
+      "perpSymbol": "para:CIEN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 57.42,
+      "dayVolume": 19736.146,
+      "fundingPer8hPct": 0.012595470000000001,
+      "annualizedFundingPct": 13.792039650000001,
+      "markPx": 405.23,
+      "oraclePx": 405.23,
+      "basisPct": 0,
+      "premiumPct": 0.25541051000000004
     },
     {
       "dex": "xyz",
       "dexLabel": "XYZ",
-      "symbol": "SMH",
-      "perpSymbol": "xyz:SMH",
+      "symbol": "MINIMAX",
+      "perpSymbol": "xyz:MINIMAX",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 282321.28,
+      "dayVolume": 4412166.587850001,
+      "fundingPer8hPct": 0.01228299,
+      "annualizedFundingPct": 13.449874050000002,
+      "markPx": 39.774,
+      "oraclePx": 39.676,
+      "basisPct": 0.24700070571630484,
+      "premiumPct": 0.16004638
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "RDDT",
+      "perpSymbol": "xyz:RDDT",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 368.28,
+      "dayVolume": 107079.9621,
+      "fundingPer8hPct": 0.0097587,
+      "annualizedFundingPct": 10.6857765,
+      "markPx": 152.77,
+      "oraclePx": 152.48,
+      "basisPct": 0.19018887722981326,
+      "premiumPct": 0.25514822
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "PALLADIUM",
+      "perpSymbol": "xyz:PALLADIUM",
       "hasSpot": false,
       "maxLeverage": 20,
-      "openInterest": 2430.664,
-      "dayVolume": 1287527.4461600003,
-      "fundingPer8hPct": 0.0040186499999999995,
-      "annualizedFundingPct": 4.40042175,
-      "markPx": 568.81,
-      "oraclePx": 568.7,
-      "basisPct": 0.019342359767882122,
-      "premiumPct": 0.06813786000000001
+      "openInterest": 2930.4368,
+      "dayVolume": 1552267.4466600006,
+      "fundingPer8hPct": 0.009735210000000001,
+      "annualizedFundingPct": 10.660054950000001,
+      "markPx": 1326.6,
+      "oraclePx": 1324.2,
+      "basisPct": 0.1812415043044746,
+      "premiumPct": 0.18048633
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SOFTBANK",
+      "perpSymbol": "xyz:SOFTBANK",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 19570.04,
+      "dayVolume": 259360.787522,
+      "fundingPer8hPct": -0.00936799,
+      "annualizedFundingPct": -10.257949049999999,
+      "markPx": 34.028,
+      "oraclePx": 34.028,
+      "basisPct": 0,
+      "premiumPct": -0.14252968
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "CRWD",
+      "perpSymbol": "xyz:CRWD",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 8820.48,
+      "dayVolume": 1940846.635700001,
+      "fundingPer8hPct": 0.00852908,
+      "annualizedFundingPct": 9.3393426,
+      "markPx": 202.03,
+      "oraclePx": 201.51,
+      "basisPct": 0.2580517095925883,
+      "premiumPct": 0.13282219
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "ZHIPU",
+      "perpSymbol": "xyz:ZHIPU",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 59021.606,
+      "dayVolume": 3641236.954200001,
+      "fundingPer8hPct": 0.00821684,
+      "annualizedFundingPct": 8.9974398,
+      "markPx": 130.8,
+      "oraclePx": 130.62,
+      "basisPct": 0.13780431786862835,
+      "premiumPct": 0.07732353
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "NET",
+      "perpSymbol": "para:NET",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 261.84,
+      "dayVolume": 15010.9936,
+      "fundingPer8hPct": -0.00790273,
+      "annualizedFundingPct": -8.65348935,
+      "markPx": 293,
+      "oraclePx": 293,
+      "basisPct": 0,
+      "premiumPct": -0.24061433
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "CRDO",
+      "perpSymbol": "para:CRDO",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 315.34,
+      "dayVolume": 782729.6854000001,
+      "fundingPer8hPct": 0.00773799,
+      "annualizedFundingPct": 8.473099049999998,
+      "markPx": 239.64,
+      "oraclePx": 239.6,
+      "basisPct": 0.016694490818025542,
+      "premiumPct": 0.15989149
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "PURRDAT",
+      "perpSymbol": "xyz:PURRDAT",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 1398130,
+      "dayVolume": 25456050.525599934,
+      "fundingPer8hPct": 0.00765998,
+      "annualizedFundingPct": 8.3876781,
+      "markPx": 9.98,
+      "oraclePx": 9.98,
+      "basisPct": 0,
+      "premiumPct": 0.03349198
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "CBRS",
+      "perpSymbol": "xyz:CBRS",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 222596,
+      "dayVolume": 56734727.33460004,
+      "fundingPer8hPct": -0.00720906,
+      "annualizedFundingPct": -7.8939207,
+      "markPx": 218.57,
+      "oraclePx": 218.76,
+      "basisPct": -0.08685317242640433,
+      "premiumPct": -0.10863503
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "AAOI",
+      "perpSymbol": "para:AAOI",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 4076.16,
+      "dayVolume": 330820.8924000002,
+      "fundingPer8hPct": 0.0071917100000000005,
+      "annualizedFundingPct": 7.874922450000001,
+      "markPx": 126.0215,
+      "oraclePx": 125.935,
+      "basisPct": 0.06868622702187466,
+      "premiumPct": 0.08337634
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "KIOXIA",
+      "perpSymbol": "xyz:KIOXIA",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 25877.618,
+      "dayVolume": 8865073.2106,
+      "fundingPer8hPct": 0.00687472,
+      "annualizedFundingPct": 7.5278184,
+      "markPx": 333.9,
+      "oraclePx": 333.3,
+      "basisPct": 0.18001800180016403,
+      "premiumPct": 0.08625863
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "NBIS",
+      "perpSymbol": "xyz:NBIS",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 268664.3,
+      "dayVolume": 103599936.53840004,
+      "fundingPer8hPct": 0.00634456,
+      "annualizedFundingPct": 6.9472932,
+      "markPx": 228.31,
+      "oraclePx": 228.09,
+      "basisPct": 0.0964531544565661,
+      "premiumPct": 0.09884256
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AAOI",
+      "perpSymbol": "xyz:AAOI",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 6867.1,
+      "dayVolume": 1756158.5334999992,
+      "fundingPer8hPct": 0.006326709999999999,
+      "annualizedFundingPct": 6.927747449999999,
+      "markPx": 126.08,
+      "oraclePx": 125.93,
+      "basisPct": 0.1191137933772568,
+      "premiumPct": 0.14313508
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "IREN",
+      "perpSymbol": "xyz:IREN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 8755.2,
+      "dayVolume": 772246.7342000001,
+      "fundingPer8hPct": 0.006112960000000001,
+      "annualizedFundingPct": 6.6936912,
+      "markPx": 43.625,
+      "oraclePx": 43.585,
+      "basisPct": 0.09177469312837694,
+      "premiumPct": 0.15278192
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "LRCX",
+      "perpSymbol": "para:LRCX",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 707.62,
+      "dayVolume": 132497.2912,
+      "fundingPer8hPct": 0.00582075,
+      "annualizedFundingPct": 6.37372125,
+      "markPx": 312.99,
+      "oraclePx": 312.805,
+      "basisPct": 0.05914227713752496,
+      "premiumPct": -0.0959064
     },
     {
       "dex": "xyz",
@@ -950,253 +822,13 @@ window.__HL_DATA__ = {
       "hasSpot": false,
       "maxLeverage": 10,
       "openInterest": 19788.38,
-      "dayVolume": 151034.93995,
-      "fundingPer8hPct": -0.00371975,
-      "annualizedFundingPct": -4.07312625,
-      "markPx": 55.702,
-      "oraclePx": 55.758,
-      "basisPct": -0.10043401843682354,
-      "premiumPct": -0.32551383
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "WDC",
-      "perpSymbol": "xyz:WDC",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 4782.91,
-      "dayVolume": 5287366.056650001,
-      "fundingPer8hPct": 0.00345747,
-      "annualizedFundingPct": 3.78592965,
-      "markPx": 475.13,
-      "oraclePx": 475,
-      "basisPct": 0.027368421052620384,
-      "premiumPct": 0.01010526
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "MINIMAX",
-      "perpSymbol": "xyz:MINIMAX",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 282387.48,
-      "dayVolume": 5008473.462599998,
-      "fundingPer8hPct": 0.00327346,
-      "annualizedFundingPct": 3.5844387000000006,
-      "markPx": 40.19,
-      "oraclePx": 40.115,
-      "basisPct": 0.1869624828617633,
-      "premiumPct": 0.15941668
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "NOW",
-      "perpSymbol": "xyz:NOW",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 14227.1,
-      "dayVolume": 488687.378,
-      "fundingPer8hPct": 0.0030259700000000002,
-      "annualizedFundingPct": 3.3134371500000004,
-      "markPx": 127.03,
-      "oraclePx": 126.98,
-      "basisPct": 0.03937627972909752,
-      "premiumPct": 0.041699480000000004
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "ZHIPU",
-      "perpSymbol": "xyz:ZHIPU",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 58799.318,
-      "dayVolume": 3882290.864170002,
-      "fundingPer8hPct": 0.00300606,
-      "annualizedFundingPct": 3.2916357,
-      "markPx": 131.28,
-      "oraclePx": 131.21,
-      "basisPct": 0.05334959225669067,
-      "premiumPct": 0.0472525
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SILVER",
-      "perpSymbol": "xyz:SILVER",
-      "hasSpot": false,
-      "maxLeverage": 25,
-      "openInterest": 1988616.0000000007,
-      "dayVolume": 152723611.4983201,
-      "fundingPer8hPct": 0.00274806,
-      "annualizedFundingPct": 3.0091257,
-      "markPx": 67.117,
-      "oraclePx": 67.081,
-      "basisPct": 0.05366646293287758,
-      "premiumPct": 0.049343330000000005
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "QCOM",
-      "perpSymbol": "xyz:QCOM",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 25674.38,
-      "dayVolume": 686929.5012000003,
-      "fundingPer8hPct": 0.0025496100000000003,
-      "annualizedFundingPct": 2.7918229500000002,
-      "markPx": 163.74,
-      "oraclePx": 163.65,
-      "basisPct": 0.05499541704858668,
-      "premiumPct": 0.05594256
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "GIGADEV",
-      "perpSymbol": "xyz:GIGADEV",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 15146.24,
-      "dayVolume": 1107159.4684900013,
-      "fundingPer8hPct": 0.0025317399999999998,
-      "annualizedFundingPct": 2.7722553,
-      "markPx": 60.053,
-      "oraclePx": 59.938,
-      "basisPct": 0.19186492709131198,
-      "premiumPct": 0.19520171
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "PURRDAT",
-      "perpSymbol": "xyz:PURRDAT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 1399292,
-      "dayVolume": 25176873.32320001,
-      "fundingPer8hPct": 0.00249209,
-      "annualizedFundingPct": 2.72883855,
-      "markPx": 9.795,
-      "oraclePx": 9.795,
-      "basisPct": 0,
-      "premiumPct": 0.10491067
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "RKLB",
-      "perpSymbol": "xyz:RKLB",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 96336.52,
-      "dayVolume": 6144749.298369998,
-      "fundingPer8hPct": 0.00228871,
-      "annualizedFundingPct": 2.5061374499999998,
-      "markPx": 76.892,
-      "oraclePx": 76.85,
-      "basisPct": 0.05465191932336744,
-      "premiumPct": 0.0625244
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "VST",
-      "perpSymbol": "para:VST",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 9838.5,
-      "dayVolume": 192202.4912,
-      "fundingPer8hPct": 0.00222523,
-      "annualizedFundingPct": 2.43662685,
-      "markPx": 143.49,
-      "oraclePx": 143.33,
-      "basisPct": 0.11163050303495403,
-      "premiumPct": 0.08372288
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "ZM",
-      "perpSymbol": "xyz:ZM",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 4185.994,
-      "dayVolume": 57168.11731,
-      "fundingPer8hPct": 0.00190974,
-      "annualizedFundingPct": 2.0911653,
-      "markPx": 108.05,
-      "oraclePx": 108.01,
-      "basisPct": 0.037033607999248375,
-      "premiumPct": -0.09165818
-    },
-    {
-      "dex": "mkts",
-      "dexLabel": "Markets By Kinetiq",
-      "symbol": "USTECH",
-      "perpSymbol": "mkts:USTECH",
-      "hasSpot": false,
-      "maxLeverage": 25,
-      "openInterest": 3198.746,
-      "dayVolume": 2646812.18587,
-      "fundingPer8hPct": -0.00182193,
-      "annualizedFundingPct": -1.9950133499999998,
-      "markPx": 719.47,
-      "oraclePx": 719.89,
-      "basisPct": -0.05834224673213484,
-      "premiumPct": -0.043548319999999995
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "JP225",
-      "perpSymbol": "xyz:JP225",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 33.80324,
-      "dayVolume": 2369817.931339998,
-      "fundingPer8hPct": 0.00181546,
-      "annualizedFundingPct": 1.9879286999999999,
-      "markPx": 66360,
-      "oraclePx": 66329,
-      "basisPct": 0.04673672149437813,
-      "premiumPct": 0.03693709
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SNDK",
-      "perpSymbol": "xyz:SNDK",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 103683.296,
-      "dayVolume": 691434044.4096011,
-      "fundingPer8hPct": 0.00168611,
-      "annualizedFundingPct": 1.8462904500000001,
-      "markPx": 1630.3,
-      "oraclePx": 1629,
-      "basisPct": 0.07980356046655146,
-      "premiumPct": 0.1043892
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SOXL",
-      "perpSymbol": "xyz:SOXL",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 37040.24,
-      "dayVolume": 40264440.15009998,
-      "fundingPer8hPct": 0.0016757900000000001,
-      "annualizedFundingPct": 1.8349900500000003,
-      "markPx": 127,
-      "oraclePx": 126.95,
-      "basisPct": 0.03938558487592836,
-      "premiumPct": 0.04025207
+      "dayVolume": 151060.52663,
+      "fundingPer8hPct": -0.00555909,
+      "annualizedFundingPct": -6.087203550000001,
+      "markPx": 55.725,
+      "oraclePx": 55.749,
+      "basisPct": -0.04305009955335448,
+      "premiumPct": -0.09964304000000002
     },
     {
       "dex": "xyz",
@@ -1205,14 +837,398 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:STRC",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 125306.6,
-      "dayVolume": 1198217.5003999996,
-      "fundingPer8hPct": 0.00142217,
-      "annualizedFundingPct": 1.5572761499999999,
-      "markPx": 95.529,
-      "oraclePx": 95.527,
-      "basisPct": 0.0020936489160128247,
-      "premiumPct": -0.009588909999999999
+      "openInterest": 125307,
+      "dayVolume": 1199145.0926999995,
+      "fundingPer8hPct": -0.0048701,
+      "annualizedFundingPct": -5.3327595,
+      "markPx": 95.322,
+      "oraclePx": 95.42,
+      "basisPct": -0.10270383567385633,
+      "premiumPct": -0.08412283
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SMH",
+      "perpSymbol": "xyz:SMH",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 2441.802,
+      "dayVolume": 1293854.4437000006,
+      "fundingPer8hPct": 0.00486314,
+      "annualizedFundingPct": 5.3251383,
+      "markPx": 567.61,
+      "oraclePx": 567.04,
+      "basisPct": 0.10052200902934683,
+      "premiumPct": 0.11798109
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "TER",
+      "perpSymbol": "para:TER",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 299.2,
+      "dayVolume": 164977.9313,
+      "fundingPer8hPct": 0.00425213,
+      "annualizedFundingPct": 4.65608235,
+      "markPx": 388.6,
+      "oraclePx": 388.6,
+      "basisPct": 0,
+      "premiumPct": -0.04503345
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AVGO",
+      "perpSymbol": "xyz:AVGO",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 14916.92,
+      "dayVolume": 4395943.568899999,
+      "fundingPer8hPct": 0.0042248500000000005,
+      "annualizedFundingPct": 4.62621075,
+      "markPx": 368.12,
+      "oraclePx": 367.72,
+      "basisPct": 0.10877841836178792,
+      "premiumPct": 0.08139345
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SHAZ",
+      "perpSymbol": "xyz:SHAZ",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 80990.54,
+      "dayVolume": 3646886.8960100007,
+      "fundingPer8hPct": 0.00403407,
+      "annualizedFundingPct": 4.41730665,
+      "markPx": 66.183,
+      "oraclePx": 66.107,
+      "basisPct": 0.11496513228554939,
+      "premiumPct": 0.14370642
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "LLY",
+      "perpSymbol": "xyz:LLY",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 7353.6302,
+      "dayVolume": 6845165.146949999,
+      "fundingPer8hPct": 0.00396269,
+      "annualizedFundingPct": 4.33914555,
+      "markPx": 1280.5,
+      "oraclePx": 1279.2,
+      "basisPct": 0.10162601626015899,
+      "premiumPct": 0.09498124
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "DELL",
+      "perpSymbol": "xyz:DELL",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 9944.1,
+      "dayVolume": 5543768.136500004,
+      "fundingPer8hPct": 0.00392024,
+      "annualizedFundingPct": 4.2926628000000004,
+      "markPx": 443.45,
+      "oraclePx": 443.12,
+      "basisPct": 0.07447192634049138,
+      "premiumPct": 0.0451345
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "GEV",
+      "perpSymbol": "xyz:GEV",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 208.766,
+      "dayVolume": 326148.0213499999,
+      "fundingPer8hPct": 0.00377244,
+      "annualizedFundingPct": 4.1308218,
+      "markPx": 999.55,
+      "oraclePx": 997.47,
+      "basisPct": 0.20852757476415018,
+      "premiumPct": 0.12476566
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SOXL",
+      "perpSymbol": "xyz:SOXL",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 39574.62,
+      "dayVolume": 38790620.25539999,
+      "fundingPer8hPct": 0.0035124099999999997,
+      "annualizedFundingPct": 3.84608895,
+      "markPx": 125.68,
+      "oraclePx": 125.63,
+      "basisPct": 0.03979941096872164,
+      "premiumPct": 0.025710419999999998
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "EBAY",
+      "perpSymbol": "xyz:EBAY",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 2855.94,
+      "dayVolume": 75627.2074,
+      "fundingPer8hPct": 0.0033145699999999998,
+      "annualizedFundingPct": 3.62945415,
+      "markPx": 102.68,
+      "oraclePx": 102.68,
+      "basisPct": 0,
+      "premiumPct": 0.01704324
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "LITE",
+      "perpSymbol": "xyz:LITE",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 17507.722,
+      "dayVolume": 13490190.813960006,
+      "fundingPer8hPct": 0.00327097,
+      "annualizedFundingPct": 3.58171215,
+      "markPx": 846.13,
+      "oraclePx": 845.48,
+      "basisPct": 0.07687940578133823,
+      "premiumPct": 0.12933482
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "USAR",
+      "perpSymbol": "xyz:USAR",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 98314.88,
+      "dayVolume": 830903.47461,
+      "fundingPer8hPct": 0.00314062,
+      "annualizedFundingPct": 3.4389788999999995,
+      "markPx": 18.261,
+      "oraclePx": 18.248,
+      "basisPct": 0.07124068391055616,
+      "premiumPct": 0.07151469
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "NOK",
+      "perpSymbol": "xyz:NOK",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 205488.8,
+      "dayVolume": 1776170.9556699998,
+      "fundingPer8hPct": 0.00259992,
+      "annualizedFundingPct": 2.8469124,
+      "markPx": 10.2,
+      "oraclePx": 10.19,
+      "basisPct": 0.09813542688910104,
+      "premiumPct": 0.09568204
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "RKLB",
+      "perpSymbol": "xyz:RKLB",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 96089.74,
+      "dayVolume": 5941815.141839999,
+      "fundingPer8hPct": 0.0024556,
+      "annualizedFundingPct": 2.688882,
+      "markPx": 76.594,
+      "oraclePx": 76.55,
+      "basisPct": 0.05747877204440588,
+      "premiumPct": 0.03958197
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SNDK",
+      "perpSymbol": "xyz:SNDK",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 103942.822,
+      "dayVolume": 662480048.1220002,
+      "fundingPer8hPct": 0.00209778,
+      "annualizedFundingPct": 2.2970691000000003,
+      "markPx": 1615.4,
+      "oraclePx": 1614.3,
+      "basisPct": 0.06814098990275408,
+      "premiumPct": 0.06504367
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SILVER",
+      "perpSymbol": "xyz:SILVER",
+      "hasSpot": false,
+      "maxLeverage": 25,
+      "openInterest": 1985119.2200000004,
+      "dayVolume": 160324522.69844994,
+      "fundingPer8hPct": 0.00192805,
+      "annualizedFundingPct": 2.1112147500000003,
+      "markPx": 66.612,
+      "oraclePx": 66.566,
+      "basisPct": 0.06910434756481898,
+      "premiumPct": 0.07316046999999999
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "WDC",
+      "perpSymbol": "xyz:WDC",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 4788.37,
+      "dayVolume": 4498888.903410003,
+      "fundingPer8hPct": 0.00185138,
+      "annualizedFundingPct": 2.0272611,
+      "markPx": 472.12,
+      "oraclePx": 471.95,
+      "basisPct": 0.036020764911537384,
+      "premiumPct": 0.0073101
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "QCOM",
+      "perpSymbol": "xyz:QCOM",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 25789.8,
+      "dayVolume": 701735.1345000003,
+      "fundingPer8hPct": 0.00182805,
+      "annualizedFundingPct": 2.0017147499999997,
+      "markPx": 163.27,
+      "oraclePx": 163.25,
+      "basisPct": 0.012251148545172619,
+      "premiumPct": -0.0029709
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "BX",
+      "perpSymbol": "xyz:BX",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 3721.2,
+      "dayVolume": 222464.9228,
+      "fundingPer8hPct": -0.00177786,
+      "annualizedFundingPct": -1.9467567,
+      "markPx": 145.53,
+      "oraclePx": 145.66,
+      "basisPct": -0.08924893587807237,
+      "premiumPct": -0.07953453
+    },
+    {
+      "dex": "mkts",
+      "dexLabel": "Markets By Kinetiq",
+      "symbol": "USTECH",
+      "perpSymbol": "mkts:USTECH",
+      "hasSpot": false,
+      "maxLeverage": 25,
+      "openInterest": 3206.744,
+      "dayVolume": 2626940.941319999,
+      "fundingPer8hPct": -0.001734,
+      "annualizedFundingPct": -1.8987299999999998,
+      "markPx": 718,
+      "oraclePx": 718.32,
+      "basisPct": -0.04454839068939176,
+      "premiumPct": -0.05060419
+    },
+    {
+      "dex": "hyna",
+      "dexLabel": "HyENA",
+      "symbol": "LINK",
+      "perpSymbol": "hyna:LINK",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 3413.8,
+      "dayVolume": 40404.05131,
+      "fundingPer8hPct": -0.00173094,
+      "annualizedFundingPct": -1.8953793,
+      "markPx": 10.534,
+      "oraclePx": 10.538,
+      "basisPct": -0.03795786676787927,
+      "premiumPct": -0.07268931
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "MU",
+      "perpSymbol": "xyz:MU",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 156294.336,
+      "dayVolume": 233962514.4138302,
+      "fundingPer8hPct": 0.0016968699999999998,
+      "annualizedFundingPct": 1.8580726499999998,
+      "markPx": 955.22,
+      "oraclePx": 954.85,
+      "basisPct": 0.038749541812843624,
+      "premiumPct": 0.045033250000000004
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "DKNG",
+      "perpSymbol": "xyz:DKNG",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 12536.88,
+      "dayVolume": 32494.96579,
+      "fundingPer8hPct": -0.00164131,
+      "annualizedFundingPct": -1.7972344500000001,
+      "markPx": 25.259,
+      "oraclePx": 25.303,
+      "basisPct": -0.1738924238232631,
+      "premiumPct": -0.14286843
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "NOW",
+      "perpSymbol": "xyz:NOW",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 14311.7,
+      "dayVolume": 495333.41,
+      "fundingPer8hPct": 0.00162246,
+      "annualizedFundingPct": 1.7765936999999998,
+      "markPx": 126.38,
+      "oraclePx": 126.38,
+      "basisPct": 0,
+      "premiumPct": -0.01562747
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "BRENTOIL",
+      "perpSymbol": "xyz:BRENTOIL",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 1798010.9,
+      "dayVolume": 80688648.46581998,
+      "fundingPer8hPct": -0.0015612900000000001,
+      "annualizedFundingPct": -1.70961255,
+      "markPx": 90.81,
+      "oraclePx": 90.87,
+      "basisPct": -0.0660283922086502,
+      "premiumPct": -0.08391108
     },
     {
       "dex": "xyz",
@@ -1221,30 +1237,62 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:NATGAS",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 2904901.8,
-      "dayVolume": 5121002.35623,
-      "fundingPer8hPct": 0.0013657699999999999,
-      "annualizedFundingPct": 1.4955181499999997,
-      "markPx": 2.7946,
-      "oraclePx": 2.793,
-      "basisPct": 0.05728607232367011,
-      "premiumPct": 0.05155747
+      "openInterest": 2899247.5999999996,
+      "dayVolume": 5108978.906139998,
+      "fundingPer8hPct": 0.00151619,
+      "annualizedFundingPct": 1.66022805,
+      "markPx": 2.7873,
+      "oraclePx": 2.786,
+      "basisPct": 0.04666188083273237,
+      "premiumPct": 0.06855707
     },
     {
       "dex": "hyna",
       "dexLabel": "HyENA",
-      "symbol": "XPL",
-      "perpSymbol": "hyna:XPL",
+      "symbol": "FARTCOIN",
+      "perpSymbol": "hyna:FARTCOIN",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 223350,
-      "dayVolume": 199.751552,
-      "fundingPer8hPct": 0.0013009200000000001,
-      "annualizedFundingPct": 1.4245074000000002,
-      "markPx": 0.08175,
-      "oraclePx": 0.081797,
-      "basisPct": -0.05745932002395593,
-      "premiumPct": 0.06968471000000001
+      "openInterest": 319314.4,
+      "dayVolume": 3285.017832,
+      "fundingPer8hPct": -0.00138242,
+      "annualizedFundingPct": -1.5137499,
+      "markPx": 0.15163,
+      "oraclePx": 0.15174,
+      "basisPct": -0.0724924212468836,
+      "premiumPct": -0.05601687
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "BTCD",
+      "perpSymbol": "para:BTCD",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 11006.2,
+      "dayVolume": 41149.1506,
+      "fundingPer8hPct": -0.00136224,
+      "annualizedFundingPct": -1.4916528,
+      "markPx": 59.35,
+      "oraclePx": 59.36554,
+      "basisPct": -0.02617680223241381,
+      "premiumPct": -0.06576206
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "EWJ",
+      "perpSymbol": "xyz:EWJ",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 18322.878,
+      "dayVolume": 528662.0232880001,
+      "fundingPer8hPct": 0.00130908,
+      "annualizedFundingPct": 1.4334426,
+      "markPx": 94.933,
+      "oraclePx": 94.894,
+      "basisPct": 0.04109848884017442,
+      "premiumPct": 0.12171476
     },
     {
       "dex": "hyna",
@@ -1257,10 +1305,10 @@ window.__HL_DATA__ = {
       "dayVolume": 60500.1198,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 554.13,
-      "oraclePx": 554.4,
-      "basisPct": -0.04870129870129247,
-      "premiumPct": 0.01060606
+      "markPx": 558.33,
+      "oraclePx": 558.47,
+      "basisPct": -0.025068490697799373,
+      "premiumPct": 0.01795978
     },
     {
       "dex": "hyna",
@@ -1273,10 +1321,10 @@ window.__HL_DATA__ = {
       "dayVolume": 2688.0358,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 1.1097,
-      "oraclePx": 1.1096,
-      "basisPct": 0.009012256669072016,
-      "premiumPct": 0.03131759
+      "markPx": 1.1104,
+      "oraclePx": 1.11,
+      "basisPct": 0.03603603603603567,
+      "premiumPct": 0.007567570000000001
     },
     {
       "dex": "hyna",
@@ -1286,13 +1334,13 @@ window.__HL_DATA__ = {
       "hasSpot": false,
       "maxLeverage": 10,
       "openInterest": 50.778,
-      "dayVolume": 1922.53661,
+      "dayVolume": 718.99661,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 627.4,
-      "oraclePx": 627.65,
-      "basisPct": -0.03983111606786771,
-      "premiumPct": 0.0257309
+      "markPx": 629.58,
+      "oraclePx": 629.92,
+      "basisPct": -0.05397510795019933,
+      "premiumPct": 0.01611316
     },
     {
       "dex": "hyna",
@@ -1305,10 +1353,10 @@ window.__HL_DATA__ = {
       "dayVolume": 2014.902681,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 0.075261,
-      "oraclePx": 0.075245,
-      "basisPct": 0.021263871353571773,
-      "premiumPct": 0.00398698
+      "markPx": 0.075163,
+      "oraclePx": 0.075145,
+      "basisPct": 0.02395368953356236,
+      "premiumPct": 0.02328831
     },
     {
       "dex": "hyna",
@@ -1321,26 +1369,26 @@ window.__HL_DATA__ = {
       "dayVolume": 149.56315,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 47.007,
-      "oraclePx": 47.025,
-      "basisPct": -0.03827751196172624,
-      "premiumPct": 0.00669856
+      "markPx": 46.856,
+      "oraclePx": 46.865,
+      "basisPct": -0.019204096874003707,
+      "premiumPct": 0.014829829999999999
     },
     {
       "dex": "hyna",
       "dexLabel": "HyENA",
-      "symbol": "LINK",
-      "perpSymbol": "hyna:LINK",
+      "symbol": "XPL",
+      "perpSymbol": "hyna:XPL",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 1481,
-      "dayVolume": 24964.53491,
+      "openInterest": 223350,
+      "dayVolume": 299.746478,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 10.546,
-      "oraclePx": 10.549,
-      "basisPct": -0.028438714570100387,
-      "premiumPct": 0.04796663
+      "markPx": 0.081551,
+      "oraclePx": 0.08149,
+      "basisPct": 0.07485581052888435,
+      "premiumPct": 0.04479077
     },
     {
       "dex": "hyna",
@@ -1353,26 +1401,362 @@ window.__HL_DATA__ = {
       "dayVolume": 900.4044,
       "fundingPer8hPct": 0.00125,
       "annualizedFundingPct": 1.3687500000000001,
-      "markPx": 0.1843,
-      "oraclePx": 0.18436,
-      "basisPct": -0.032545020611851605,
-      "premiumPct": -0.00542417
+      "markPx": 0.18404,
+      "oraclePx": 0.18405,
+      "basisPct": -0.005433306166791052,
+      "premiumPct": -0.00027167
     },
     {
       "dex": "xyz",
       "dexLabel": "XYZ",
-      "symbol": "NOK",
-      "perpSymbol": "xyz:NOK",
+      "symbol": "BIRD",
+      "perpSymbol": "xyz:BIRD",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 207921.44,
-      "dayVolume": 1817913.3802000002,
-      "fundingPer8hPct": 0.00111763,
-      "annualizedFundingPct": 1.22380485,
-      "markPx": 10.28,
-      "oraclePx": 10.28,
+      "openInterest": 41303.8,
+      "dayVolume": 112685.07377,
+      "fundingPer8hPct": 0.00099782,
+      "annualizedFundingPct": 1.0926129000000002,
+      "markPx": 2.4679,
+      "oraclePx": 2.4692,
+      "basisPct": -0.05264863113557672,
+      "premiumPct": 0.13749393000000001
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "JP225",
+      "perpSymbol": "xyz:JP225",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 33.99094,
+      "dayVolume": 2399461.048129998,
+      "fundingPer8hPct": 0.00099278,
+      "annualizedFundingPct": 1.0870941,
+      "markPx": 65998,
+      "oraclePx": 65969,
+      "basisPct": 0.043960041837842745,
+      "premiumPct": 0.04812867
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "PLTR",
+      "perpSymbol": "xyz:PLTR",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 101816.764,
+      "dayVolume": 10138469.314819992,
+      "fundingPer8hPct": -0.0009539599999999999,
+      "annualizedFundingPct": -1.0445862,
+      "markPx": 174.3,
+      "oraclePx": 174.4,
+      "basisPct": -0.05733944954128267,
+      "premiumPct": -0.07110092
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "MRNA",
+      "perpSymbol": "xyz:MRNA",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 68148.56,
+      "dayVolume": 121730373.86770004,
+      "fundingPer8hPct": 0.0008905100000000001,
+      "annualizedFundingPct": 0.97510845,
+      "markPx": 158.26,
+      "oraclePx": 158.2,
+      "basisPct": 0.03792667509481262,
+      "premiumPct": 0.10998735999999999
+    },
+    {
+      "dex": "io",
+      "dexLabel": "EntropyIO",
+      "symbol": "SNDK",
+      "perpSymbol": "io:SNDK",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 210.1652,
+      "dayVolume": 1019609.7124200001,
+      "fundingPer8hPct": 0.0008515099999999999,
+      "annualizedFundingPct": 0.93240345,
+      "markPx": 1615.8,
+      "oraclePx": 1614.5,
+      "basisPct": 0.08052028491791763,
+      "premiumPct": 0.07184887
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "TOTAL2",
+      "perpSymbol": "para:TOTAL2",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 495.586,
+      "dayVolume": 885671.29043,
+      "fundingPer8hPct": 0.00075,
+      "annualizedFundingPct": 0.8212500000000001,
+      "markPx": 956.934,
+      "oraclePx": 956.554,
+      "basisPct": 0.03972593287990822,
+      "premiumPct": 0.030055799999999997
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "STX",
+      "perpSymbol": "para:STX",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 273.13,
+      "dayVolume": 33629.12175,
+      "fundingPer8hPct": 0.00075,
+      "annualizedFundingPct": 0.8212500000000001,
+      "markPx": 850.5,
+      "oraclePx": 849.42,
+      "basisPct": 0.12714558169104606,
+      "premiumPct": 0.07063643
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "10Y",
+      "perpSymbol": "para:10Y",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 113357.4,
+      "dayVolume": 218884.6401,
+      "fundingPer8hPct": 0.00075,
+      "annualizedFundingPct": 0.8212500000000001,
+      "markPx": 4.655,
+      "oraclePx": 4.654,
+      "basisPct": 0.021486892995281615,
+      "premiumPct": 0.06961753000000001
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "LYTE",
+      "perpSymbol": "xyz:LYTE",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 42453.44,
+      "dayVolume": 906086.1950800004,
+      "fundingPer8hPct": -0.00070535,
+      "annualizedFundingPct": -0.77235825,
+      "markPx": 25.246,
+      "oraclePx": 25.231,
+      "basisPct": 0.05945067575601204,
+      "premiumPct": 0.15437359
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "COIN",
+      "perpSymbol": "xyz:COIN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 82178.564,
+      "dayVolume": 20681303.95137,
+      "fundingPer8hPct": 0.00070032,
+      "annualizedFundingPct": 0.7668503999999999,
+      "markPx": 165.43,
+      "oraclePx": 165.33,
+      "basisPct": 0.06048509042519967,
+      "premiumPct": 0.07137241
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "COST",
+      "perpSymbol": "xyz:COST",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 380.2888,
+      "dayVolume": 147011.267424,
+      "fundingPer8hPct": 0.0006936199999999999,
+      "annualizedFundingPct": 0.7595139,
+      "markPx": 955.92,
+      "oraclePx": 955.84,
+      "basisPct": 0.008369601606950106,
+      "premiumPct": -0.052310010000000004
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "TSLA",
+      "perpSymbol": "xyz:TSLA",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 128096.206,
+      "dayVolume": 24210202.594579995,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 351.17,
+      "oraclePx": 351.1,
+      "basisPct": 0.019937339789222186,
+      "premiumPct": 0.02022216
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "NVDA",
+      "perpSymbol": "xyz:NVDA",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 713310.0040000001,
+      "dayVolume": 46129692.10637998,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 219.09,
+      "oraclePx": 219.09,
       "basisPct": 0,
-      "premiumPct": -0.00048638
+      "premiumPct": -0.00365147
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "GOLD",
+      "perpSymbol": "xyz:GOLD",
+      "hasSpot": false,
+      "maxLeverage": 25,
+      "openInterest": 81926.3428,
+      "dayVolume": 134790215.52548006,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 4485.1,
+      "oraclePx": 4484.4,
+      "basisPct": 0.015609669075034027,
+      "premiumPct": 0.0328918
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "INTC",
+      "perpSymbol": "xyz:INTC",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 786252.7399999998,
+      "dayVolume": 75448950.75962996,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 93.866,
+      "oraclePx": 93.878,
+      "basisPct": -0.012782547561729363,
+      "premiumPct": -0.042342189999999995
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "META",
+      "perpSymbol": "xyz:META",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 83465.082,
+      "dayVolume": 47573721.55206999,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 549.21,
+      "oraclePx": 549.18,
+      "basisPct": 0.005462689828483747,
+      "premiumPct": 0.0060999999999999995
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AAPL",
+      "perpSymbol": "xyz:AAPL",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 106688.826,
+      "dayVolume": 28355628.852490008,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 315.56,
+      "oraclePx": 315.59,
+      "basisPct": -0.0095060046262474,
+      "premiumPct": -0.0061789
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "MSFT",
+      "perpSymbol": "xyz:MSFT",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 50621.514,
+      "dayVolume": 17639081.413840003,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 482.88,
+      "oraclePx": 483.1,
+      "basisPct": -0.04553922583316883,
+      "premiumPct": -0.05381909
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "ORCL",
+      "perpSymbol": "xyz:ORCL",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 87493.622,
+      "dayVolume": 6166699.502139999,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 144.85,
+      "oraclePx": 144.86,
+      "basisPct": -0.0069032168990901255,
+      "premiumPct": -0.0158774
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "GOOGL",
+      "perpSymbol": "xyz:GOOGL",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 474966.2480000005,
+      "dayVolume": 25990604.87059995,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 345.05,
+      "oraclePx": 345.05,
+      "basisPct": 0,
+      "premiumPct": 0.0062309800000000005
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AMZN",
+      "perpSymbol": "xyz:AMZN",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 102132.902,
+      "dayVolume": 10560624.355499992,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 266.74,
+      "oraclePx": 266.74,
+      "basisPct": 0,
+      "premiumPct": -0.01274649
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AMD",
+      "perpSymbol": "xyz:AMD",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 28845.158,
+      "dayVolume": 15280966.75359,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 472.08,
+      "oraclePx": 471.96,
+      "basisPct": 0.025425883549456962,
+      "premiumPct": 0.01557335
     },
     {
       "dex": "xyz",
@@ -1381,14 +1765,206 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:NFLX",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 72253.488,
-      "dayVolume": 1889225.1686360007,
-      "fundingPer8hPct": 0.0010658,
-      "annualizedFundingPct": 1.167051,
-      "markPx": 80.184,
-      "oraclePx": 80.165,
-      "basisPct": 0.02370111644731665,
-      "premiumPct": 0.03492796
+      "openInterest": 72434.204,
+      "dayVolume": 1916630.612569001,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 79.908,
+      "oraclePx": 79.921,
+      "basisPct": -0.016266062736958187,
+      "premiumPct": -0.0018768500000000002
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "TSM",
+      "perpSymbol": "xyz:TSM",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 23198.426,
+      "dayVolume": 2899794.1261100005,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 415.61,
+      "oraclePx": 415.56,
+      "basisPct": 0.012031956877467387,
+      "premiumPct": 0.00806141
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "RIVN",
+      "perpSymbol": "xyz:RIVN",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 39250.34,
+      "dayVolume": 227698.2984700001,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 15.663,
+      "oraclePx": 15.67,
+      "basisPct": -0.04467134652201832,
+      "premiumPct": 0.11901723
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "BABA",
+      "perpSymbol": "xyz:BABA",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 92157.09,
+      "dayVolume": 6029040.88777,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 129.77,
+      "oraclePx": 129.7,
+      "basisPct": 0.053970701619143746,
+      "premiumPct": 0.06437934
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "CL",
+      "perpSymbol": "xyz:CL",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 1978767.1320000002,
+      "dayVolume": 133135716.49846995,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 85.583,
+      "oraclePx": 85.587,
+      "basisPct": -0.004673606973026878,
+      "premiumPct": -0.02512064
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "COPPER",
+      "perpSymbol": "xyz:COPPER",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 4080630.44,
+      "dayVolume": 9426516.513503002,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 6.5526,
+      "oraclePx": 6.5513,
+      "basisPct": 0.019843389861540217,
+      "premiumPct": 0.01450094
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "PLATINUM",
+      "perpSymbol": "xyz:PLATINUM",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 4099.9752,
+      "dayVolume": 3577937.3336799988,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 1796.6,
+      "oraclePx": 1796.6,
+      "basisPct": 0,
+      "premiumPct": -0.01057553
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "CRWV",
+      "perpSymbol": "xyz:CRWV",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 138685.74,
+      "dayVolume": 14487195.530839998,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 91.992,
+      "oraclePx": 92.01,
+      "basisPct": -0.019563090968377495,
+      "premiumPct": -0.05401587
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "KR200",
+      "perpSymbol": "xyz:KR200",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 931.1618,
+      "dayVolume": 1686351.3982600009,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 1078.1,
+      "oraclePx": 1077.9,
+      "basisPct": 0.018554596901365628,
+      "premiumPct": 0.00092773
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "EWY",
+      "perpSymbol": "xyz:EWY",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 55375.518,
+      "dayVolume": 72157593.56424005,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 179.28,
+      "oraclePx": 179.28,
+      "basisPct": 0,
+      "premiumPct": -0.02035921
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "XLE",
+      "perpSymbol": "xyz:XLE",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 25025.56,
+      "dayVolume": 974452.12085,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 63.536,
+      "oraclePx": 63.535,
+      "basisPct": 0.0015739356260313642,
+      "premiumPct": 0.029196510000000002
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "MRVL",
+      "perpSymbol": "xyz:MRVL",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 148164.46,
+      "dayVolume": 75841063.23180003,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 240.26,
+      "oraclePx": 240.3,
+      "basisPct": -0.01664585934250118,
+      "premiumPct": -0.034623390000000004
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "DRAM",
+      "perpSymbol": "xyz:DRAM",
+      "hasSpot": false,
+      "maxLeverage": 20,
+      "openInterest": 1636795.9999999995,
+      "dayVolume": 232350395.63739988,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 57.263,
+      "oraclePx": 57.26,
+      "basisPct": 0.005239259517986206,
+      "premiumPct": 0.011159619999999999
     },
     {
       "dex": "xyz",
@@ -1399,28 +1975,28 @@ window.__HL_DATA__ = {
       "maxLeverage": 20,
       "openInterest": 7312.7,
       "dayVolume": 91129.598,
-      "fundingPer8hPct": 0.00104972,
-      "annualizedFundingPct": 1.1494434000000002,
-      "markPx": 34.258,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 34.257,
       "oraclePx": 34.257,
-      "basisPct": 0.00291911142249468,
-      "premiumPct": 0.045975999999999996
+      "basisPct": 0,
+      "premiumPct": 0.04261903
     },
     {
       "dex": "xyz",
       "dexLabel": "XYZ",
-      "symbol": "BRENTOIL",
-      "perpSymbol": "xyz:BRENTOIL",
+      "symbol": "EWT",
+      "perpSymbol": "xyz:EWT",
       "hasSpot": false,
       "maxLeverage": 20,
-      "openInterest": 1800687.82,
-      "dayVolume": 79138091.32162997,
-      "fundingPer8hPct": -0.0010301800000000001,
-      "annualizedFundingPct": -1.1280471000000003,
-      "markPx": 90.041,
-      "oraclePx": 90.089,
-      "basisPct": -0.053280644695807844,
-      "premiumPct": -0.06737782
+      "openInterest": 6456.56,
+      "dayVolume": 263458.9248,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 104.35,
+      "oraclePx": 104.25,
+      "basisPct": 0.09592326139087337,
+      "premiumPct": 0.11693045999999999
     },
     {
       "dex": "xyz",
@@ -1429,14 +2005,158 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:ASML",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 894.24,
-      "dayVolume": 1080693.1488000005,
-      "fundingPer8hPct": -0.00100148,
-      "annualizedFundingPct": -1.0966205999999998,
-      "markPx": 1774.6,
-      "oraclePx": 1774.6,
+      "openInterest": 897.222,
+      "dayVolume": 1022209.3711000002,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 1764.8,
+      "oraclePx": 1764,
+      "basisPct": 0.045351473922905505,
+      "premiumPct": 0.05164399
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "QNT",
+      "perpSymbol": "xyz:QNT",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 18767.5,
+      "dayVolume": 1349564.0072200003,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 57.097,
+      "oraclePx": 57.124,
+      "basisPct": -0.04726559764722804,
+      "premiumPct": -0.02975982
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "IBM",
+      "perpSymbol": "xyz:IBM",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 12812.82,
+      "dayVolume": 467817.8562999999,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 236.73,
+      "oraclePx": 236.82,
+      "basisPct": -0.03800354699772246,
+      "premiumPct": -0.02406891
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "BE",
+      "perpSymbol": "xyz:BE",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 41886.6,
+      "dayVolume": 11876101.9964,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 209.46,
+      "oraclePx": 209.37,
+      "basisPct": 0.042986101160624735,
+      "premiumPct": 0.02022735
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SKHY",
+      "perpSymbol": "xyz:SKHY",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 720943.9800000002,
+      "dayVolume": 278397506.4354002,
+      "fundingPer8hPct": 0.000625,
+      "annualizedFundingPct": 0.6843750000000001,
+      "markPx": 163.91,
+      "oraclePx": 163.92,
+      "basisPct": -0.006100536847242211,
+      "premiumPct": -0.021077349999999998
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "KORU",
+      "perpSymbol": "xyz:KORU",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 176915,
+      "dayVolume": 29003010.5016,
+      "fundingPer8hPct": 0.00060173,
+      "annualizedFundingPct": 0.65889435,
+      "markPx": 20.71,
+      "oraclePx": 20.71,
       "basisPct": 0,
-      "premiumPct": 0.03333145
+      "premiumPct": 0.04833414
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "AMAT",
+      "perpSymbol": "xyz:AMAT",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 3503.446,
+      "dayVolume": 1294783.8173799997,
+      "fundingPer8hPct": 0.00059872,
+      "annualizedFundingPct": 0.6555984,
+      "markPx": 501.89,
+      "oraclePx": 501.92,
+      "basisPct": -0.005977048135163976,
+      "premiumPct": -0.11446047000000001
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "GME",
+      "perpSymbol": "xyz:GME",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 84985.72,
+      "dayVolume": 291691.2071100001,
+      "fundingPer8hPct": -0.0005905999999999999,
+      "annualizedFundingPct": -0.6467069999999999,
+      "markPx": 18.117,
+      "oraclePx": 18.145,
+      "basisPct": -0.15431248277761878,
+      "premiumPct": -0.13033894
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "XYZ100",
+      "perpSymbol": "xyz:XYZ100",
+      "hasSpot": false,
+      "maxLeverage": 30,
+      "openInterest": 6978.0608,
+      "dayVolume": 342248322.5969992,
+      "fundingPer8hPct": 0.00058382,
+      "annualizedFundingPct": 0.6392829,
+      "markPx": 29512,
+      "oraclePx": 29518,
+      "basisPct": -0.02032658039162749,
+      "premiumPct": -0.025408229999999997
+    },
+    {
+      "dex": "mkts",
+      "dexLabel": "Markets By Kinetiq",
+      "symbol": "US500",
+      "perpSymbol": "mkts:US500",
+      "hasSpot": false,
+      "maxLeverage": 25,
+      "openInterest": 1925.148,
+      "dayVolume": 3005625.7236599997,
+      "fundingPer8hPct": 0.00057078,
+      "annualizedFundingPct": 0.6250041,
+      "markPx": 769.56,
+      "oraclePx": 769.33,
+      "basisPct": 0.029896143397478703,
+      "premiumPct": 0.045364150000000006
     },
     {
       "dex": "hyna",
@@ -1447,396 +2167,12 @@ window.__HL_DATA__ = {
       "maxLeverage": 10,
       "openInterest": 547398,
       "dayVolume": 1275.8625,
-      "fundingPer8hPct": -0.00091674,
-      "annualizedFundingPct": -1.0038303,
-      "markPx": 0.092896,
-      "oraclePx": 0.09293,
-      "basisPct": -0.036586678144834295,
-      "premiumPct": 0.053803939999999995
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "OTHERS",
-      "perpSymbol": "para:OTHERS",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 3907.22,
-      "dayVolume": 31478.7654,
-      "fundingPer8hPct": -0.00086328,
-      "annualizedFundingPct": -0.9452916,
-      "markPx": 164.9213,
-      "oraclePx": 164.9213,
-      "basisPct": 0,
-      "premiumPct": -0.06351514
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "COPPER",
-      "perpSymbol": "xyz:COPPER",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 4081127.9399999995,
-      "dayVolume": 9492351.377676997,
-      "fundingPer8hPct": 0.00085897,
-      "annualizedFundingPct": 0.94057215,
-      "markPx": 6.59,
-      "oraclePx": 6.5853,
-      "basisPct": 0.07137108408121762,
-      "premiumPct": 0.07440815
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "BTCD",
-      "perpSymbol": "para:BTCD",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 11002.8,
-      "dayVolume": 40947.3708,
-      "fundingPer8hPct": -0.00085154,
-      "annualizedFundingPct": -0.9324363,
-      "markPx": 59.35168,
-      "oraclePx": 59.37081,
-      "basisPct": -0.0322212211691153,
-      "premiumPct": -0.02662925
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "PLATINUM",
-      "perpSymbol": "xyz:PLATINUM",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 4052.747,
-      "dayVolume": 3833810.7127199983,
-      "fundingPer8hPct": -0.0008255500000000001,
-      "annualizedFundingPct": -0.90397725,
-      "markPx": 1805.3,
-      "oraclePx": 1806.1,
-      "basisPct": -0.04429433586179421,
-      "premiumPct": -0.03958806
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "TOTAL2",
-      "perpSymbol": "para:TOTAL2",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 495.378,
-      "dayVolume": 885472.08883,
-      "fundingPer8hPct": 0.00075,
-      "annualizedFundingPct": 0.8212500000000001,
-      "markPx": 957.603,
-      "oraclePx": 957.603,
-      "basisPct": 0,
-      "premiumPct": 0.00318504
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "NET",
-      "perpSymbol": "para:NET",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 261.48,
-      "dayVolume": 14362.9866,
-      "fundingPer8hPct": 0.00075,
-      "annualizedFundingPct": 0.8212500000000001,
-      "markPx": 293.22,
-      "oraclePx": 293,
-      "basisPct": 0.07508532423208258,
-      "premiumPct": 0.0887372
-    },
-    {
-      "dex": "para",
-      "dexLabel": "Paragon",
-      "symbol": "10Y",
-      "perpSymbol": "para:10Y",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 113357.4,
-      "dayVolume": 219835.9911,
-      "fundingPer8hPct": 0.00075,
-      "annualizedFundingPct": 0.8212500000000001,
-      "markPx": 4.654,
-      "oraclePx": 4.654,
-      "basisPct": 0,
-      "premiumPct": 0.00064461
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "CBRS",
-      "perpSymbol": "xyz:CBRS",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 222568.84,
-      "dayVolume": 58035504.57270001,
-      "fundingPer8hPct": -0.0006873900000000001,
-      "annualizedFundingPct": -0.7526920500000001,
-      "markPx": 219.24,
-      "oraclePx": 219.53,
-      "basisPct": -0.13210039630118242,
-      "premiumPct": -0.22145036999999998
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "EWY",
-      "perpSymbol": "xyz:EWY",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 55335.368,
-      "dayVolume": 82086122.36110002,
-      "fundingPer8hPct": 0.00064577,
-      "annualizedFundingPct": 0.70711815,
-      "markPx": 179.76,
-      "oraclePx": 179.71,
-      "basisPct": 0.027822603082738873,
-      "premiumPct": 0.02531857
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "TSLA",
-      "perpSymbol": "xyz:TSLA",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 128019.154,
-      "dayVolume": 23935250.08221,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 351.6,
-      "oraclePx": 351.53,
-      "basisPct": 0.019912951952916202,
-      "premiumPct": 0.02318437
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "NVDA",
-      "perpSymbol": "xyz:NVDA",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 711963.0819999999,
-      "dayVolume": 46031361.74065,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 219.42,
-      "oraclePx": 219.39,
-      "basisPct": 0.013674278681796714,
-      "premiumPct": 0.021423039999999997
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "GOLD",
-      "perpSymbol": "xyz:GOLD",
-      "hasSpot": false,
-      "maxLeverage": 25,
-      "openInterest": 82043.8096,
-      "dayVolume": 133251054.60071,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 4494.1,
-      "oraclePx": 4492.9,
-      "basisPct": 0.02670880722919211,
-      "premiumPct": 0.028823249999999998
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "HOOD",
-      "perpSymbol": "xyz:HOOD",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 154272.486,
-      "dayVolume": 12130937.45392701,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 98.352,
-      "oraclePx": 98.345,
-      "basisPct": 0.007117799583111761,
-      "premiumPct": -0.00050841
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "INTC",
-      "perpSymbol": "xyz:INTC",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 786705.2799999999,
-      "dayVolume": 76469466.44533001,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 94.26,
-      "oraclePx": 94.26,
-      "basisPct": 0,
-      "premiumPct": -0.029598979999999997
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "PLTR",
-      "perpSymbol": "xyz:PLTR",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 101849.898,
-      "dayVolume": 10133477.072109994,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 174.97,
-      "oraclePx": 174.98,
-      "basisPct": -0.005714938850154283,
-      "premiumPct": -0.01114413
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "COIN",
-      "perpSymbol": "xyz:COIN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 80025.958,
-      "dayVolume": 20687293.291150007,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 165.68,
-      "oraclePx": 165.64,
-      "basisPct": 0.024148756339070765,
-      "premiumPct": 0.02445062
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "META",
-      "perpSymbol": "xyz:META",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 83447.73,
-      "dayVolume": 48251475.31407996,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 549.59,
-      "oraclePx": 549.65,
-      "basisPct": -0.010916037478381213,
-      "premiumPct": -0.00673156
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "AAPL",
-      "perpSymbol": "xyz:AAPL",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 106791.672,
-      "dayVolume": 28453120.323809996,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 316.09,
-      "oraclePx": 316.09,
-      "basisPct": 0,
-      "premiumPct": -0.03717296
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "MSFT",
-      "perpSymbol": "xyz:MSFT",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 50646.912,
-      "dayVolume": 17527867.994850006,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 484.76,
-      "oraclePx": 484.87,
-      "basisPct": -0.022686493286860898,
-      "premiumPct": -0.02175841
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "ORCL",
-      "perpSymbol": "xyz:ORCL",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 87426.32,
-      "dayVolume": 6175784.15897,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 145.43,
-      "oraclePx": 145.37,
-      "basisPct": 0.04127399050697367,
-      "premiumPct": 0.05021669000000001
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "GOOGL",
-      "perpSymbol": "xyz:GOOGL",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 474666.7320000003,
-      "dayVolume": 25586351.052029997,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 345.38,
-      "oraclePx": 345.31,
-      "basisPct": 0.02027163997566639,
-      "premiumPct": 0.03055226
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "AMZN",
-      "perpSymbol": "xyz:AMZN",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 102028.652,
-      "dayVolume": 10465561.654219992,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 267.23,
-      "oraclePx": 267.14,
-      "basisPct": 0.03369019989520883,
-      "premiumPct": 0.024144640000000002
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "AMD",
-      "perpSymbol": "xyz:AMD",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 28842.01,
-      "dayVolume": 15508386.481700003,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 474.24,
-      "oraclePx": 474.04,
-      "basisPct": 0.04219053244451931,
-      "premiumPct": 0.05537507
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "MU",
-      "perpSymbol": "xyz:MU",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 153917.4639999999,
-      "dayVolume": 247338661.10673,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 958.97,
-      "oraclePx": 958.83,
-      "basisPct": 0.014601128458635593,
-      "premiumPct": 0.02237101
+      "fundingPer8hPct": 0.00051894,
+      "annualizedFundingPct": 0.5682392999999999,
+      "markPx": 0.09352,
+      "oraclePx": 0.09355,
+      "basisPct": -0.03206841261356175,
+      "premiumPct": -0.00053447
     },
     {
       "dex": "xyz",
@@ -1845,462 +2181,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:MSTR",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 181704.3979999999,
-      "dayVolume": 37705502.49841798,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 108.58,
-      "oraclePx": 108.65,
-      "basisPct": -0.06442705936493542,
-      "premiumPct": -0.08605613999999999
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "COST",
-      "perpSymbol": "xyz:COST",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 381.6908,
-      "dayVolume": 149946.194784,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 956.56,
-      "oraclePx": 956.13,
-      "basisPct": 0.04497296392749206,
-      "premiumPct": 0.05543179
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "TSM",
-      "perpSymbol": "xyz:TSM",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 23183.652,
-      "dayVolume": 2952896.8976499997,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 416,
-      "oraclePx": 415.78,
-      "basisPct": 0.052912598008569844,
-      "premiumPct": 0.06169128
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "RIVN",
-      "perpSymbol": "xyz:RIVN",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 39250.34,
-      "dayVolume": 240834.9242600001,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 15.672,
-      "oraclePx": 15.683,
-      "basisPct": -0.07013964165019093,
-      "premiumPct": 0.07619716
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BABA",
-      "perpSymbol": "xyz:BABA",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 90462.222,
-      "dayVolume": 5852501.249989999,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 130.26,
-      "oraclePx": 130.22,
-      "basisPct": 0.030717247734601827,
-      "premiumPct": 0.056058979999999994
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "CRWV",
-      "perpSymbol": "xyz:CRWV",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 138517.84,
-      "dayVolume": 14989836.637649994,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 92.233,
-      "oraclePx": 92.233,
-      "basisPct": 0,
-      "premiumPct": -0.029382110000000003
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "GME",
-      "perpSymbol": "xyz:GME",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 85224.24,
-      "dayVolume": 289585.5599500001,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 18.155,
-      "oraclePx": 18.15,
-      "basisPct": 0.027548209366412557,
-      "premiumPct": -0.047658400000000004
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SOFTBANK",
-      "perpSymbol": "xyz:SOFTBANK",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 19572.77,
-      "dayVolume": 317845.4853360001,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 34.047,
-      "oraclePx": 34.047,
-      "basisPct": 0,
-      "premiumPct": -0.01027991
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "EWJ",
-      "perpSymbol": "xyz:EWJ",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 18300.556,
-      "dayVolume": 522609.334983,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 95.23,
-      "oraclePx": 95.165,
-      "basisPct": 0.06830242210895676,
-      "premiumPct": 0.06094678
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "HIMS",
-      "perpSymbol": "xyz:HIMS",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 83114.96,
-      "dayVolume": 1192713.6567300002,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 30.874,
-      "oraclePx": 30.85,
-      "basisPct": 0.07779578606157411,
-      "premiumPct": 0.0445705
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "XLE",
-      "perpSymbol": "xyz:XLE",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 25641.84,
-      "dayVolume": 969279.0029799999,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 63.63,
-      "oraclePx": 63.615,
-      "basisPct": 0.023579344494217835,
-      "premiumPct": 0.05714061
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "MRVL",
-      "perpSymbol": "xyz:MRVL",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 148111.24,
-      "dayVolume": 76611514.30279998,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 241.39,
-      "oraclePx": 241.39,
-      "basisPct": 0,
-      "premiumPct": -0.01831062
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "DRAM",
-      "perpSymbol": "xyz:DRAM",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 1641570.4,
-      "dayVolume": 251766841.2420002,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 57.617,
-      "oraclePx": 57.6,
-      "basisPct": 0.02951388888887685,
-      "premiumPct": 0.03822049
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "ARM",
-      "perpSymbol": "xyz:ARM",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 22402.04,
-      "dayVolume": 8705643.539299997,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 253.92,
-      "oraclePx": 253.83,
-      "basisPct": 0.03545680179646293,
-      "premiumPct": 0.04203601
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "EWT",
-      "perpSymbol": "xyz:EWT",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 6408.06,
-      "dayVolume": 251506.2683,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 104.69,
-      "oraclePx": 104.61,
-      "basisPct": 0.07647452442405278,
-      "premiumPct": -0.15729854
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "QNT",
-      "perpSymbol": "xyz:QNT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 18773.78,
-      "dayVolume": 1352256.664,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 57.143,
-      "oraclePx": 57.133,
-      "basisPct": 0.017503019270814768,
-      "premiumPct": -0.09862950999999999
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "IBM",
-      "perpSymbol": "xyz:IBM",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 12815.4,
-      "dayVolume": 483770.2607999999,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 237.3,
-      "oraclePx": 237.24,
-      "basisPct": 0.025290844714209726,
-      "premiumPct": 0.02377339
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "BE",
-      "perpSymbol": "xyz:BE",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 41767.66,
-      "dayVolume": 11763075.036200004,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 210.63,
-      "oraclePx": 210.62,
-      "basisPct": 0.004747887190204025,
-      "premiumPct": -0.013151649999999999
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SKHY",
-      "perpSymbol": "xyz:SKHY",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 723378.7799999998,
-      "dayVolume": 306528190.42609954,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 164.79,
-      "oraclePx": 164.78,
-      "basisPct": 0.006068697657468647,
-      "premiumPct": 0.00873892
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "KORU",
-      "perpSymbol": "xyz:KORU",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 178443.4,
-      "dayVolume": 30130913.815100007,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 20.87,
-      "oraclePx": 20.87,
-      "basisPct": 0,
-      "premiumPct": -0.02611404
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "MRNA",
-      "perpSymbol": "xyz:MRNA",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 62454.64,
-      "dayVolume": 120526450.60800004,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 162.27,
-      "oraclePx": 162.27,
-      "basisPct": 0,
-      "premiumPct": 0.01408147
-    },
-    {
-      "dex": "io",
-      "dexLabel": "EntropyIO",
-      "symbol": "SNDK",
-      "perpSymbol": "io:SNDK",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 206.209,
-      "dayVolume": 937715.3831600004,
-      "fundingPer8hPct": 0.000625,
-      "annualizedFundingPct": 0.6843750000000001,
-      "markPx": 1624.2,
-      "oraclePx": 1629.9,
-      "basisPct": -0.3497147064237094,
-      "premiumPct": -0.060126389999999995
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "CL",
-      "perpSymbol": "xyz:CL",
-      "hasSpot": false,
-      "maxLeverage": 20,
-      "openInterest": 1954663.884,
-      "dayVolume": 129583970.59116395,
-      "fundingPer8hPct": 0.00057863,
-      "annualizedFundingPct": 0.6335998500000001,
-      "markPx": 84.717,
-      "oraclePx": 84.74,
-      "basisPct": -0.027141845645495266,
-      "premiumPct": -0.024781690000000002
-    },
-    {
-      "dex": "mkts",
-      "dexLabel": "Markets By Kinetiq",
-      "symbol": "US500",
-      "perpSymbol": "mkts:US500",
-      "hasSpot": false,
-      "maxLeverage": 25,
-      "openInterest": 1934.058,
-      "dayVolume": 2993036.4515400003,
-      "fundingPer8hPct": 0.00057078,
-      "annualizedFundingPct": 0.6250041,
-      "markPx": 770.53,
-      "oraclePx": 770.45,
-      "basisPct": 0.010383542085778963,
-      "premiumPct": 0.00934519
-    },
-    {
-      "dex": "hyna",
-      "dexLabel": "HyENA",
-      "symbol": "SUI",
-      "perpSymbol": "hyna:SUI",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 27322,
-      "dayVolume": 2981.109888,
-      "fundingPer8hPct": -0.0005631200000000001,
-      "annualizedFundingPct": -0.6166164,
-      "markPx": 0.70399,
-      "oraclePx": 0.7042,
-      "basisPct": -0.02982107355865571,
-      "premiumPct": -0.00213008
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "XYZ100",
-      "perpSymbol": "xyz:XYZ100",
-      "hasSpot": false,
-      "maxLeverage": 30,
-      "openInterest": 6896.261,
-      "dayVolume": 343347060.73159987,
-      "fundingPer8hPct": 0.0005616,
-      "annualizedFundingPct": 0.6149519999999999,
-      "markPx": 29578,
-      "oraclePx": 29583,
-      "basisPct": -0.016901598891250202,
-      "premiumPct": -0.01859176
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "LYTE",
-      "perpSymbol": "xyz:LYTE",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 42630.76,
-      "dayVolume": 879626.1739400005,
-      "fundingPer8hPct": -0.00046797999999999995,
-      "annualizedFundingPct": -0.5124381,
-      "markPx": 25.338,
-      "oraclePx": 25.359,
-      "basisPct": -0.08281083638944642,
-      "premiumPct": -0.10706258
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "AMAT",
-      "perpSymbol": "xyz:AMAT",
-      "hasSpot": false,
-      "maxLeverage": 10,
-      "openInterest": 3499.448,
-      "dayVolume": 1286159.7782100001,
-      "fundingPer8hPct": -0.00035033,
-      "annualizedFundingPct": -0.38361134999999996,
-      "markPx": 503.31,
-      "oraclePx": 503.31,
-      "basisPct": 0,
-      "premiumPct": 0.01351056
-    },
-    {
-      "dex": "xyz",
-      "dexLabel": "XYZ",
-      "symbol": "SP500",
-      "perpSymbol": "xyz:SP500",
-      "hasSpot": false,
-      "maxLeverage": 50,
-      "openInterest": 63463.134,
-      "dayVolume": 358773190.2055996,
-      "fundingPer8hPct": 0.00034872,
-      "annualizedFundingPct": 0.3818484,
-      "markPx": 7721.9,
-      "oraclePx": 7723.6,
-      "basisPct": -0.022010461442856233,
-      "premiumPct": -0.02265783
+      "openInterest": 182688.1139999999,
+      "dayVolume": 37569377.712975964,
+      "fundingPer8hPct": 0.00050838,
+      "annualizedFundingPct": 0.5566761000000001,
+      "markPx": 108.07,
+      "oraclePx": 108.08,
+      "basisPct": -0.009252405625470583,
+      "premiumPct": -0.03700962
     },
     {
       "dex": "hyna",
@@ -2311,28 +2199,140 @@ window.__HL_DATA__ = {
       "maxLeverage": 10,
       "openInterest": 19899874,
       "dayVolume": 2523.678227,
-      "fundingPer8hPct": 0.00014474,
-      "annualizedFundingPct": 0.1584903,
-      "markPx": 0.002936,
-      "oraclePx": 0.002938,
-      "basisPct": -0.0680735194009574,
-      "premiumPct": -0.05105514
+      "fundingPer8hPct": 0.00044953,
+      "annualizedFundingPct": 0.49223534999999996,
+      "markPx": 0.002939,
+      "oraclePx": 0.002942,
+      "basisPct": -0.10197144799456437,
+      "premiumPct": -0.050985720000000005
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "ZM",
+      "perpSymbol": "xyz:ZM",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 4164.166,
+      "dayVolume": 59187.95806,
+      "fundingPer8hPct": 0.00041204999999999996,
+      "annualizedFundingPct": 0.45119475000000003,
+      "markPx": 107.99,
+      "oraclePx": 108.01,
+      "basisPct": -0.01851680399963529,
+      "premiumPct": -0.05832793
     },
     {
       "dex": "hyna",
       "dexLabel": "HyENA",
-      "symbol": "FARTCOIN",
-      "perpSymbol": "hyna:FARTCOIN",
+      "symbol": "SUI",
+      "perpSymbol": "hyna:SUI",
       "hasSpot": false,
       "maxLeverage": 10,
-      "openInterest": 319314.4,
-      "dayVolume": 3285.017832,
-      "fundingPer8hPct": 0.00013649000000000002,
-      "annualizedFundingPct": 0.14945655,
-      "markPx": 0.15099,
-      "oraclePx": 0.15105,
-      "basisPct": -0.03972194637535953,
-      "premiumPct": 0.006620320000000001
+      "openInterest": 27322,
+      "dayVolume": 2981.109888,
+      "fundingPer8hPct": 0.0003268,
+      "annualizedFundingPct": 0.357846,
+      "markPx": 0.7026,
+      "oraclePx": 0.70255,
+      "basisPct": 0.007116931179274033,
+      "premiumPct": -0.02989111
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "VST",
+      "perpSymbol": "para:VST",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 9838.5,
+      "dayVolume": 192202.4912,
+      "fundingPer8hPct": 0.00020311,
+      "annualizedFundingPct": 0.22240544999999998,
+      "markPx": 143.26,
+      "oraclePx": 143.26,
+      "basisPct": 0,
+      "premiumPct": 0.024431099999999997
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "HIMS",
+      "perpSymbol": "xyz:HIMS",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 83131.16,
+      "dayVolume": 1187966.16686,
+      "fundingPer8hPct": 0.00019300000000000003,
+      "annualizedFundingPct": 0.21133500000000005,
+      "markPx": 30.842,
+      "oraclePx": 30.86,
+      "basisPct": -0.058327932598833954,
+      "premiumPct": -0.07420609
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "HOOD",
+      "perpSymbol": "xyz:HOOD",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 154093.856,
+      "dayVolume": 12105268.782297,
+      "fundingPer8hPct": -0.00015832999999999998,
+      "annualizedFundingPct": -0.17337135,
+      "markPx": 98.07,
+      "oraclePx": 98.09,
+      "basisPct": -0.020389438270984606,
+      "premiumPct": -0.04893465
+    },
+    {
+      "dex": "para",
+      "dexLabel": "Paragon",
+      "symbol": "OTHERS",
+      "perpSymbol": "para:OTHERS",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 3907.22,
+      "dayVolume": 31478.7654,
+      "fundingPer8hPct": -0.00015079,
+      "annualizedFundingPct": -0.16511505,
+      "markPx": 164.8095,
+      "oraclePx": 164.8095,
+      "basisPct": 0,
+      "premiumPct": -0.029731300000000002
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "SP500",
+      "perpSymbol": "xyz:SP500",
+      "hasSpot": false,
+      "maxLeverage": 50,
+      "openInterest": 63381.194,
+      "dayVolume": 352839987.9141001,
+      "fundingPer8hPct": 0.00005291000000000001,
+      "annualizedFundingPct": 0.05793645,
+      "markPx": 7709.9,
+      "oraclePx": 7711.9,
+      "basisPct": -0.02593394623893186,
+      "premiumPct": -0.02969437
+    },
+    {
+      "dex": "xyz",
+      "dexLabel": "XYZ",
+      "symbol": "ARM",
+      "perpSymbol": "xyz:ARM",
+      "hasSpot": false,
+      "maxLeverage": 10,
+      "openInterest": 22409.68,
+      "dayVolume": 8609767.600699997,
+      "fundingPer8hPct": 0.00002713,
+      "annualizedFundingPct": 0.029707349999999997,
+      "markPx": 253.15,
+      "oraclePx": 253.32,
+      "basisPct": -0.067108795199744,
+      "premiumPct": -0.08027396
     },
     {
       "dex": "io",
@@ -2341,14 +2341,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "io:ANTH",
       "hasSpot": false,
       "maxLeverage": 3,
-      "openInterest": 72.55,
-      "dayVolume": 389676.6532999999,
-      "fundingPer8hPct": 0.00000156,
-      "annualizedFundingPct": 0.0017082,
-      "markPx": 1825.2,
+      "openInterest": 76.066,
+      "dayVolume": 399331.4029999999,
+      "fundingPer8hPct": -0.00001007,
+      "annualizedFundingPct": -0.01102665,
+      "markPx": 1825.3,
       "oraclePx": 1824.8,
-      "basisPct": 0.02192021043403436,
-      "premiumPct": -0.07570692999999999
+      "basisPct": 0.027400263042531847,
+      "premiumPct": -0.0835434
     },
     {
       "dex": "xyz",
@@ -2357,14 +2357,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:JPY",
       "hasSpot": false,
       "maxLeverage": 50,
-      "openInterest": 111150.44,
-      "dayVolume": 9716736.4893,
+      "openInterest": 111070.44,
+      "dayVolume": 9496035.765099999,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
       "markPx": 158.49,
-      "oraclePx": 158.48,
-      "basisPct": 0.006309944472504547,
-      "premiumPct": 0.00419611
+      "oraclePx": 158.52,
+      "basisPct": -0.01892505677517642,
+      "premiumPct": -0.01996593
     },
     {
       "dex": "xyz",
@@ -2373,14 +2373,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:EUR",
       "hasSpot": false,
       "maxLeverage": 50,
-      "openInterest": 11162813.2,
-      "dayVolume": 4984159.45188,
+      "openInterest": 11203472,
+      "dayVolume": 5043106.274,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
-      "markPx": 1.1682,
-      "oraclePx": 1.168,
-      "basisPct": 0.01712328767122795,
-      "premiumPct": 0.01541096
+      "markPx": 1.1681,
+      "oraclePx": 1.1679,
+      "basisPct": 0.01712475383166545,
+      "premiumPct": 0.01284357
     },
     {
       "dex": "xyz",
@@ -2521,8 +2521,8 @@ window.__HL_DATA__ = {
       "dayVolume": 0,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
-      "markPx": 1392.7,
-      "oraclePx": 1392.7,
+      "markPx": 1395.1,
+      "oraclePx": 1395.1,
       "basisPct": 0,
       "premiumPct": null
     },
@@ -2565,14 +2565,14 @@ window.__HL_DATA__ = {
       "perpSymbol": "xyz:GBP",
       "hasSpot": false,
       "maxLeverage": 50,
-      "openInterest": 179326,
-      "dayVolume": 220690.9208999999,
+      "openInterest": 179338,
+      "dayVolume": 219930.6061999999,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
-      "markPx": 1.3609,
-      "oraclePx": 1.3609,
+      "markPx": 1.3612,
+      "oraclePx": 1.3612,
       "basisPct": 0,
-      "premiumPct": -0.028069660000000003
+      "premiumPct": -0.00753012
     },
     {
       "dex": "xyz",
@@ -2601,8 +2601,8 @@ window.__HL_DATA__ = {
       "dayVolume": 0,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
-      "markPx": 120.87,
-      "oraclePx": 120.87,
+      "markPx": 120.24,
+      "oraclePx": 120.24,
       "basisPct": 0,
       "premiumPct": null
     },
@@ -2617,8 +2617,8 @@ window.__HL_DATA__ = {
       "dayVolume": 0,
       "fundingPer8hPct": 0,
       "annualizedFundingPct": 0,
-      "markPx": 24.038,
-      "oraclePx": 24.038,
+      "markPx": 24.035,
+      "oraclePx": 24.035,
       "basisPct": 0,
       "premiumPct": null
     },
@@ -4258,99 +4258,99 @@ window.__HL_DATA__ = {
   "perpMids": {
     "XYZ100": {
       "dex": "xyz",
-      "markPx": 29578
+      "markPx": 29512
     },
     "TSLA": {
       "dex": "xyz",
-      "markPx": 351.6
+      "markPx": 351.17
     },
     "NVDA": {
       "dex": "xyz",
-      "markPx": 219.42
+      "markPx": 219.09
     },
     "GOLD": {
       "dex": "xyz",
-      "markPx": 4494.1
+      "markPx": 4485.1
     },
     "HOOD": {
       "dex": "xyz",
-      "markPx": 98.352
+      "markPx": 98.07
     },
     "INTC": {
       "dex": "xyz",
-      "markPx": 94.26
+      "markPx": 93.866
     },
     "PLTR": {
       "dex": "xyz",
-      "markPx": 174.97
+      "markPx": 174.3
     },
     "COIN": {
       "dex": "xyz",
-      "markPx": 165.68
+      "markPx": 165.43
     },
     "META": {
       "dex": "xyz",
-      "markPx": 549.59
+      "markPx": 549.21
     },
     "AAPL": {
       "dex": "xyz",
-      "markPx": 316.09
+      "markPx": 315.56
     },
     "MSFT": {
       "dex": "xyz",
-      "markPx": 484.76
+      "markPx": 482.88
     },
     "ORCL": {
       "dex": "xyz",
-      "markPx": 145.43
+      "markPx": 144.85
     },
     "GOOGL": {
       "dex": "xyz",
-      "markPx": 345.38
+      "markPx": 345.05
     },
     "AMZN": {
       "dex": "xyz",
-      "markPx": 267.23
+      "markPx": 266.74
     },
     "AMD": {
       "dex": "xyz",
-      "markPx": 474.24
+      "markPx": 472.08
     },
     "MU": {
       "dex": "xyz",
-      "markPx": 958.97
+      "markPx": 955.22
     },
     "SNDK": {
       "dex": "xyz",
-      "markPx": 1630.3
+      "markPx": 1615.4
     },
     "MSTR": {
       "dex": "xyz",
-      "markPx": 108.58
+      "markPx": 108.07
     },
     "CRCL": {
       "dex": "xyz",
-      "markPx": 82.276
+      "markPx": 81.306
     },
     "NFLX": {
       "dex": "xyz",
-      "markPx": 80.184
+      "markPx": 79.908
     },
     "COST": {
       "dex": "xyz",
-      "markPx": 956.56
+      "markPx": 955.92
     },
     "LLY": {
       "dex": "xyz",
-      "markPx": 1281.7
+      "markPx": 1280.5
     },
     "SKHX": {
       "dex": "xyz",
-      "markPx": 1216
+      "markPx": 1209.9
     },
     "TSM": {
       "dex": "xyz",
-      "markPx": 416
+      "markPx": 415.61
     },
     "JPY": {
       "dex": "xyz",
@@ -4358,31 +4358,31 @@ window.__HL_DATA__ = {
     },
     "EUR": {
       "dex": "xyz",
-      "markPx": 1.1682
+      "markPx": 1.1681
     },
     "SILVER": {
       "dex": "xyz",
-      "markPx": 67.117
+      "markPx": 66.612
     },
     "RIVN": {
       "dex": "xyz",
-      "markPx": 15.672
+      "markPx": 15.663
     },
     "BABA": {
       "dex": "xyz",
-      "markPx": 130.26
+      "markPx": 129.77
     },
     "CL": {
       "dex": "xyz",
-      "markPx": 84.717
+      "markPx": 85.583
     },
     "COPPER": {
       "dex": "xyz",
-      "markPx": 6.59
+      "markPx": 6.5526
     },
     "NATGAS": {
       "dex": "xyz",
-      "markPx": 2.7946
+      "markPx": 2.7873
     },
     "URANIUM": {
       "dex": "xyz",
@@ -4394,27 +4394,27 @@ window.__HL_DATA__ = {
     },
     "SMSN": {
       "dex": "xyz",
-      "markPx": 194.94
+      "markPx": 194.02
     },
     "PLATINUM": {
       "dex": "xyz",
-      "markPx": 1805.3
+      "markPx": 1796.6
     },
     "USAR": {
       "dex": "xyz",
-      "markPx": 18.333
+      "markPx": 18.261
     },
     "CRWV": {
       "dex": "xyz",
-      "markPx": 92.233
+      "markPx": 91.992
     },
     "URNM": {
       "dex": "xyz",
-      "markPx": 55.702
+      "markPx": 55.725
     },
     "PALLADIUM": {
       "dex": "xyz",
-      "markPx": 1332.3
+      "markPx": 1326.6
     },
     "DXY": {
       "dex": "xyz",
@@ -4422,39 +4422,39 @@ window.__HL_DATA__ = {
     },
     "GME": {
       "dex": "xyz",
-      "markPx": 18.155
+      "markPx": 18.117
     },
     "KR200": {
       "dex": "xyz",
-      "markPx": 1077.2
+      "markPx": 1078.1
     },
     "SOFTBANK": {
       "dex": "xyz",
-      "markPx": 34.047
+      "markPx": 34.028
     },
     "JP225": {
       "dex": "xyz",
-      "markPx": 66360
+      "markPx": 65998
     },
     "HYUNDAI": {
       "dex": "xyz",
-      "markPx": 298.58
+      "markPx": 298.56
     },
     "KIOXIA": {
       "dex": "xyz",
-      "markPx": 334.99
+      "markPx": 333.9
     },
     "EWY": {
       "dex": "xyz",
-      "markPx": 179.76
+      "markPx": 179.28
     },
     "EWJ": {
       "dex": "xyz",
-      "markPx": 95.23
+      "markPx": 94.933
     },
     "BRENTOIL": {
       "dex": "xyz",
-      "markPx": 90.041
+      "markPx": 90.81
     },
     "VIX": {
       "dex": "xyz",
@@ -4462,19 +4462,19 @@ window.__HL_DATA__ = {
     },
     "HIMS": {
       "dex": "xyz",
-      "markPx": 30.874
+      "markPx": 30.842
     },
     "SP500": {
       "dex": "xyz",
-      "markPx": 7721.9
+      "markPx": 7709.9
     },
     "DKNG": {
       "dex": "xyz",
-      "markPx": 25.284
+      "markPx": 25.259
     },
     "LITE": {
       "dex": "xyz",
-      "markPx": 848.8
+      "markPx": 846.13
     },
     "CORN": {
       "dex": "xyz",
@@ -4482,7 +4482,7 @@ window.__HL_DATA__ = {
     },
     "XLE": {
       "dex": "xyz",
-      "markPx": 63.63
+      "markPx": 63.536
     },
     "WHEAT": {
       "dex": "xyz",
@@ -4494,23 +4494,23 @@ window.__HL_DATA__ = {
     },
     "BX": {
       "dex": "xyz",
-      "markPx": 145.89
+      "markPx": 145.53
     },
     "PURRDAT": {
       "dex": "xyz",
-      "markPx": 9.795
+      "markPx": 9.98
     },
     "MRVL": {
       "dex": "xyz",
-      "markPx": 241.39
+      "markPx": 240.26
     },
     "RKLB": {
       "dex": "xyz",
-      "markPx": 76.892
+      "markPx": 76.594
     },
     "BIRD": {
       "dex": "xyz",
-      "markPx": 2.474
+      "markPx": 2.4679
     },
     "VOL": {
       "dex": "xyz",
@@ -4518,27 +4518,27 @@ window.__HL_DATA__ = {
     },
     "DRAM": {
       "dex": "xyz",
-      "markPx": 57.617
+      "markPx": 57.263
     },
     "CBRS": {
       "dex": "xyz",
-      "markPx": 219.24
+      "markPx": 218.57
     },
     "EWZ": {
       "dex": "xyz",
-      "markPx": 34.258
+      "markPx": 34.257
     },
     "KRW": {
       "dex": "xyz",
-      "markPx": 1392.7
+      "markPx": 1395.1
     },
     "ZM": {
       "dex": "xyz",
-      "markPx": 108.05
+      "markPx": 107.99
     },
     "EBAY": {
       "dex": "xyz",
-      "markPx": 102.81
+      "markPx": 102.68
     },
     "H100": {
       "dex": "xyz",
@@ -4550,19 +4550,19 @@ window.__HL_DATA__ = {
     },
     "ARM": {
       "dex": "xyz",
-      "markPx": 253.92
+      "markPx": 253.15
     },
     "EWT": {
       "dex": "xyz",
-      "markPx": 104.69
+      "markPx": 104.35
     },
     "GBP": {
       "dex": "xyz",
-      "markPx": 1.3609
+      "markPx": 1.3612
     },
     "SPCX": {
       "dex": "xyz",
-      "markPx": 139.87
+      "markPx": 139.49
     },
     "IBOV": {
       "dex": "xyz",
@@ -4570,151 +4570,151 @@ window.__HL_DATA__ = {
     },
     "ASML": {
       "dex": "xyz",
-      "markPx": 1774.6
+      "markPx": 1764.8
     },
     "MINIMAX": {
       "dex": "xyz",
-      "markPx": 40.19
+      "markPx": 39.774
     },
     "BB": {
       "dex": "xyz",
-      "markPx": 8.4709
+      "markPx": 8.4186
     },
     "QNT": {
       "dex": "xyz",
-      "markPx": 57.143
+      "markPx": 57.097
     },
     "DELL": {
       "dex": "xyz",
-      "markPx": 444.4
+      "markPx": 443.45
     },
     "IBM": {
       "dex": "xyz",
-      "markPx": 237.3
+      "markPx": 236.73
     },
     "AVGO": {
       "dex": "xyz",
-      "markPx": 368.98
+      "markPx": 368.12
     },
     "NOW": {
       "dex": "xyz",
-      "markPx": 127.03
+      "markPx": 126.38
     },
     "NBIS": {
       "dex": "xyz",
-      "markPx": 228.68
+      "markPx": 228.31
     },
     "WDC": {
       "dex": "xyz",
-      "markPx": 475.13
+      "markPx": 472.12
     },
     "NOK": {
       "dex": "xyz",
-      "markPx": 10.28
+      "markPx": 10.2
     },
     "SMH": {
       "dex": "xyz",
-      "markPx": 568.81
+      "markPx": 567.61
     },
     "BE": {
       "dex": "xyz",
-      "markPx": 210.63
+      "markPx": 209.46
     },
     "ZHIPU": {
       "dex": "xyz",
-      "markPx": 131.28
+      "markPx": 130.8
     },
     "QCOM": {
       "dex": "xyz",
-      "markPx": 163.74
+      "markPx": 163.27
     },
     "STRC": {
       "dex": "xyz",
-      "markPx": 95.529
+      "markPx": 95.322
     },
     "BOT": {
       "dex": "xyz",
-      "markPx": 28.952
+      "markPx": 28.525
     },
     "AMAT": {
       "dex": "xyz",
-      "markPx": 503.31
+      "markPx": 501.89
     },
     "IBIDEN": {
       "dex": "xyz",
-      "markPx": 120.87
+      "markPx": 120.24
     },
     "GIGADEV": {
       "dex": "xyz",
-      "markPx": 60.053
+      "markPx": 60.047
     },
     "SHAZ": {
       "dex": "xyz",
-      "markPx": 66.239
+      "markPx": 66.183
     },
     "SKHY": {
       "dex": "xyz",
-      "markPx": 164.79
+      "markPx": 163.91
     },
     "KSTR": {
       "dex": "xyz",
-      "markPx": 24.038
+      "markPx": 24.035
     },
     "CXMT": {
       "dex": "xyz",
-      "markPx": 8.3928
+      "markPx": 8.4155
     },
     "GEV": {
       "dex": "xyz",
-      "markPx": 998.87
+      "markPx": 999.55
     },
     "KORU": {
       "dex": "xyz",
-      "markPx": 20.87
+      "markPx": 20.71
     },
     "UNITREE": {
       "dex": "xyz",
-      "markPx": 101.9
+      "markPx": 101.02
     },
     "LYTE": {
       "dex": "xyz",
-      "markPx": 25.338
+      "markPx": 25.246
     },
     "NCLD": {
       "dex": "xyz",
-      "markPx": 24.198
+      "markPx": 24.174
     },
     "SOXL": {
       "dex": "xyz",
-      "markPx": 127
+      "markPx": 125.68
     },
     "MAGS": {
       "dex": "xyz",
-      "markPx": 67.82
+      "markPx": 67.843
     },
     "IREN": {
       "dex": "xyz",
-      "markPx": 43.86
+      "markPx": 43.625
     },
     "NET": {
       "dex": "xyz",
-      "markPx": 293.43
+      "markPx": 292.88
     },
     "CRWD": {
       "dex": "xyz",
-      "markPx": 202.84
+      "markPx": 202.03
     },
     "RDDT": {
       "dex": "xyz",
-      "markPx": 153.31
+      "markPx": 152.77
     },
     "AAOI": {
       "dex": "xyz",
-      "markPx": 126.85
+      "markPx": 126.08
     },
     "MRNA": {
       "dex": "xyz",
-      "markPx": 162.27
+      "markPx": 158.26
     },
     "XMR": {
       "dex": "flx",
@@ -4802,15 +4802,15 @@ window.__HL_DATA__ = {
     },
     "ETH": {
       "dex": "hyna",
-      "markPx": 2262.5
+      "markPx": 2252.1
     },
     "HYPE": {
       "dex": "hyna",
-      "markPx": 71.917
+      "markPx": 71.907
     },
     "SOL": {
       "dex": "hyna",
-      "markPx": 85.74
+      "markPx": 85.861
     },
     "LIT": {
       "dex": "hyna",
@@ -4818,11 +4818,11 @@ window.__HL_DATA__ = {
     },
     "ZEC": {
       "dex": "hyna",
-      "markPx": 554.13
+      "markPx": 558.33
     },
     "XRP": {
       "dex": "hyna",
-      "markPx": 1.1097
+      "markPx": 1.1104
     },
     "LIGHTER": {
       "dex": "hyna",
@@ -4830,39 +4830,39 @@ window.__HL_DATA__ = {
     },
     "BNB": {
       "dex": "hyna",
-      "markPx": 627.4
+      "markPx": 629.58
     },
     "DOGE": {
       "dex": "hyna",
-      "markPx": 0.075261
+      "markPx": 0.075163
     },
     "SUI": {
       "dex": "hyna",
-      "markPx": 0.70399
+      "markPx": 0.7026
     },
     "PUMP": {
       "dex": "hyna",
-      "markPx": 0.003203
+      "markPx": 0.003196
     },
     "FARTCOIN": {
       "dex": "hyna",
-      "markPx": 0.15099
+      "markPx": 0.15163
     },
     "ENA": {
       "dex": "hyna",
-      "markPx": 0.092896
+      "markPx": 0.09352
     },
     "LTC": {
       "dex": "hyna",
-      "markPx": 47.007
+      "markPx": 46.856
     },
     "LINK": {
       "dex": "hyna",
-      "markPx": 10.546
+      "markPx": 10.534
     },
     "XPL": {
       "dex": "hyna",
-      "markPx": 0.08175
+      "markPx": 0.081551
     },
     "IP": {
       "dex": "hyna",
@@ -4874,15 +4874,15 @@ window.__HL_DATA__ = {
     },
     "ADA": {
       "dex": "hyna",
-      "markPx": 0.1843
+      "markPx": 0.18404
     },
     "1000PEPE": {
       "dex": "hyna",
-      "markPx": 0.002936
+      "markPx": 0.002939
     },
     "BASED": {
       "dex": "hyna",
-      "markPx": 0.078916
+      "markPx": 0.079603
     },
     "US500": {
       "dex": "km",
@@ -4950,51 +4950,51 @@ window.__HL_DATA__ = {
     },
     "TOTAL2": {
       "dex": "para",
-      "markPx": 957.603
+      "markPx": 956.934
     },
     "OTHERS": {
       "dex": "para",
-      "markPx": 164.9213
+      "markPx": 164.8095
     },
     "BTCD": {
       "dex": "para",
-      "markPx": 59.35168
+      "markPx": 59.35
     },
     "COHR": {
       "dex": "para",
-      "markPx": 294.3831
+      "markPx": 292.8026
     },
     "GLW": {
       "dex": "para",
-      "markPx": 155.32
+      "markPx": 154.3822
     },
     "CRDO": {
       "dex": "para",
-      "markPx": 240.401
+      "markPx": 239.64
     },
     "LRCX": {
       "dex": "para",
-      "markPx": 313.99
+      "markPx": 312.99
     },
     "STX": {
       "dex": "para",
-      "markPx": 852.64
+      "markPx": 850.5
     },
     "VST": {
       "dex": "para",
-      "markPx": 143.49
+      "markPx": 143.26
     },
     "TER": {
       "dex": "para",
-      "markPx": 389.72
+      "markPx": 388.6
     },
     "10Y": {
       "dex": "para",
-      "markPx": 4.654
+      "markPx": 4.655
     },
     "CIEN": {
       "dex": "para",
-      "markPx": 405.3
+      "markPx": 405.23
     },
     "NAVER": {
       "dex": "para",
@@ -5010,7 +5010,7 @@ window.__HL_DATA__ = {
     },
     "SMCI": {
       "dex": "para",
-      "markPx": 37.15
+      "markPx": 37.0565
     },
     "ANSEM": {
       "dex": "para",
@@ -5026,7 +5026,7 @@ window.__HL_DATA__ = {
     },
     "ANTH": {
       "dex": "io",
-      "markPx": 1825.2
+      "markPx": 1825.3
     }
   }
 };
